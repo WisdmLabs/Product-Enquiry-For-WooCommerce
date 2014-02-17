@@ -20,3 +20,22 @@ As this is an extension for the WooCommerce plugin, you must have WooCommerce pl
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Visit 'Product Enquiry' page under 'Products' menu of WooCommerce to configure settings.
 
+== Changelog ==
+
+= 0.2.9 =
+* Fixed enquiry button alignment issue.
+
+= 0.2.5 =
+* Fixed tab index issue.
+
+= 0.2 =
+* Added a plugin support sidebar in settings page.
+
+= 0.1.5 =
+* Resolved issue of showing 'Undefined index' warning message.
+* Added code to show 'site name' in email.
+* Formatted email contents in such a way that they look more meaningful and proper aligned.
+
+= 0.1 =
+* Plugin Released
+
