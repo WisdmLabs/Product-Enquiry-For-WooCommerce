@@ -1,4 +1,4 @@
-Product Enquiry For WooCommerce
+Product Enquiry For WooCommerce :
 ===============================
 
 Product Enquiry for WooCommerce allows prospective customers or visitors to make enquiry about a product, right from within the product listing page.
@@ -11,7 +11,7 @@ Product Enquiry for WooCommerce allows prospective customers or visitors to make
 
 * You will find a plugin support sidebar in settings page: This sidebar enables various features such as asking a support query, making enquiry for custom development, know services provided by us etc. right from the plugin settings page.
 
-Installation
+Installation :
 ============
 
 As this is an extension for the WooCommerce plugin, you must have WooCommerce plugin installed already.
@@ -20,7 +20,7 @@ As this is an extension for the WooCommerce plugin, you must have WooCommerce pl
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Visit 'Product Enquiry' page under 'Products' menu of WooCommerce to configure settings.
 
-Changelog
+Changelog :
 =========
 
 0.2.9
