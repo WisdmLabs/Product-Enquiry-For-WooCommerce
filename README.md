@@ -39,4 +39,5 @@ Changelog
 
 0.1
 * Plugin Released
+* Forked from WisdmLabs by Anish
 
