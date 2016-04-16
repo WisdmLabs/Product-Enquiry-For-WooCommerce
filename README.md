@@ -39,4 +39,5 @@ Changelog
 
 0.1
 * Plugin Released
+* Fork and Committed changes by Madhuri Jaybhay
 
