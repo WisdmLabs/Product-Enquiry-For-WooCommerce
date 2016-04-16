@@ -25,6 +25,7 @@ Changelog
 
 0.2.9
 * Fixed enquiry button alignment issue.
+* 
 
 0.2.5
 * Fixed tab index issue.
@@ -38,5 +39,5 @@ Changelog
 * Formatted email contents in such a way that they look more meaningful and proper aligned.
 
 0.1
-* Plugin Released
+* Plugin Initial Released
 
