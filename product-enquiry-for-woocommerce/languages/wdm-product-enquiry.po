@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product enquiry for WooCommerce\n"
+"POT-Creation-Date: 2015-08-03 11:53+0530\n"
+"PO-Revision-Date: 2015-08-03 11:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: WisdmLabs <support@wisdmlabs.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/praveen/PE/product-enquiry-for-woocommerce\n"
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:24
+msgid ""
+"<strong>WooCommerce</strong> plugin is not active. In order to make "
+"<strong>Product Enquiry</strong> plugin work, you need to install and "
+"activate <strong>WooCommerce</strong> first"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:97
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:633
+msgid "Make an enquiry for this product"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:115
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:234
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:317
+msgid "Product Enquiry"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:119
+msgid "Name:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:123
+msgid "Email:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:127
+msgid "Subject:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:131
+msgid "Enquiry:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:137
+msgid "Send me a copy"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:142
+msgid "Send"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:143
+msgid "Cancel"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:186
+msgid "Sending..."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:202
+msgid "Name is required."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:203
+msgid "Enter valid Email Id."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:204
+msgid "Enquiry length must be atleast 10 characters."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:249
+msgid "Get The New Premium Version"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:256
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:382
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:431
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:261
+msgid "Features In Pro Version"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:267
+msgid "Filter"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:267
+msgid " enquires"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:272
+msgid "Responsive"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:277
+msgid "Custom"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:277
+msgid "styling"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:281
+msgid "WPML"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:281
+msgid "Compatible"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:285
+msgid "Enquiries"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:285
+msgid "in dashboard"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:290
+msgid "Export"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:290
+msgid "enquiry records"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:295
+msgid "Localization"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:295
+msgid "ready"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:300
+msgid "Customizable"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:300
+msgid "Enquiry Form"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:327
+msgid "Enquiry Settings"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:328
+msgid "Enquiry Details"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:329
+msgid "Product Enquiry Ideas"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:330
+msgid "Hire Us"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:340
+msgid "This feature is available in the PRO version. Click below to know more."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:341
+msgid "View Details"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:358
+msgid ""
+"Product Enquiry Pro is one of WisdmLabs early plugins and a very successful "
+"one. With over "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:358
+msgid "200 satisfied customers"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:358
+msgid ""
+"we continue to improve PEP and give the best to our customers. We stand by "
+"our products and make sure we give our customers what they are looking for "
+"with great quality and even better features. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:360
+msgid "THIS IS WHERE WE NEED YOU! "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:362
+msgid "We need you, the users of PEP to "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:362
+msgid "pitch in your ideas  "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:362
+msgid ""
+"for the plugin. Based on the number of interested users, we will incorporate "
+"the feature and make it available at a minimal cost. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:378
+msgid "Customize Your Enquiry Form "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:380
+msgid "Flexibility to create your own fields within the enquiry form. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:386
+msgid "Display Enquiry Button On Shop "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:388
+msgid ""
+"Allow visitors to enquire about your products directly from the shop page. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:394
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:413
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:443
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:463
+msgid "Confirm Email-id : "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:405
+msgid "Create a Custom Email Template "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:407
+msgid ""
+"Style and create templates for your enquiry emails from your dashboard. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:427
+msgid "Hide or Replace Add-to-Cart Button "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:429
+msgid ""
+"Replace the add-to-cart button with the enquiry button for your products. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:435
+msgid "Analytics For Your Enquiries "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:437
+msgid ""
+"Get detailed analytics for your enquiries based on products and other "
+"attributes. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:441
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:461
+msgid "Please confirm your feature request"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:455
+msgid "Newsletter Integration With PEP "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:457
+msgid "Get your newsletter plugin integrated seamlessly with PEP. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:505
+msgid "Get A Feature Developed in PEP "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:507
+msgid ""
+"Select a feature you want us to develop and leave us a note about it. We "
+"will get in touch with you and keep you posted on its progress. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:508
+msgid "Need a custom feature developed in PEP ? "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:509
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:521
+msgid "Contact Us "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:519
+msgid "Plugin Development and Customization "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:520
+msgid ""
+"Our area of expertise is WordPress plugins. We specialize in creating "
+"bespoke plugin solutions for your business needs. Our competence with plugin "
+"development and customization has been certified by WordPress biggies like "
+"WooThemes and Event Espresso. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:525
+msgid "Our Premium Plugins "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:528
+msgid "Customer Specific Pricing for WooCommerce "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:530
+msgid ""
+"This simple yet powerful plugin, allows you to set a different price for a "
+"WooCommerce product on a per customer basis. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:532
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:539
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:546
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:553
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:562
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:569
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:576
+msgid "Know more "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:535
+msgid "WooCommerce Custom Product Boxes "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:537
+msgid ""
+"This plugin allows customers, to select and create their own product "
+"bundles, which can be purchased as a single product! "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:542
+msgid "Instagram WooCommerce Integration "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:544
+msgid ""
+"A perfect solution, to create collages using Instagram images, right from "
+"your WooCommerce store. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:549
+msgid "WooCommerce Moodle Integration"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:551
+msgid ""
+"Want to sell Moodle Courses in your WooCommerce store? This plugin allows "
+"you to do the same and much more. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:558
+msgid "WooCommerce Scheduler"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:560
+msgid ""
+"With the WooCommerce Scheduler Plugin, you can manage product availability "
+"as per your business needs."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:565
+msgid "WooCommerce Bookings: Availability Search Widget"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:567
+msgid ""
+"An WooCommerce Bookings plugin extension, which allows customers to search "
+"for Available Bookings on requested dates."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:572
+msgid "Empty Cart Timer for WooCommerce"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:574
+msgid ""
+"Empty Cart Timer for WooCommerce deletes products from the cart after a "
+"certain predefined amount of expiration time. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:582
+msgid "Entire Array of Services "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:583
+msgid ""
+"We specialize in WordPress website development and customization with an "
+"entire range of services under our belt. We have expertise in domains such "
+"as eCommerce, LMS, Event Management System, etc. Explore our services now "
+"and cater to all your WordPress requirements under one roof. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:584
+msgid "View Our Services "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:591
+msgid "[Available in PRO]"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:601
+msgid "Emailing Information"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:604
+msgid " Recipient's Email "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:614
+msgid "Default Subject "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:617
+msgid "Enquiry for a product from "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:619
+msgid " Will be used if the customer does not enter a subject"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:627
+msgid "Form Options"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:630
+msgid "Button-Text for enquiry button"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:639
+msgid "Enquiry Button Location"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:644
+msgid " After add to cart button"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:648
+msgid " After single product summary "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:654
+msgid "At the end of single product page "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:662
+msgid "Enable sending an email copy"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:667
+msgid " Enable option on the enquiry form to send an email copy to customer"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:675
+msgid "Display 'Powered by WisdmLabs'"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:688
+msgid "Display 'Telephone Number Field'"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:701
+msgid "Show enquiry button only when product is out of stock"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:712
+msgid "Styling Options"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:716
+msgid "Custom Styling"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:721
+msgid "Use Activated Theme CSS"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:725
+msgid "Manually specify color settings"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:733
+msgid "Specify CSS Settings "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:738
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:751
+msgid ""
+" This feature is available in the PRO version. Click below to know more. "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:739
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:752
+msgid "View Details "
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:757
+msgid "Enable/Disable Add to Cart for all Products"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:763
+msgid "Enable/Disable PEP for all Products"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:769
+msgid "Redirect Page URL"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:859
+msgid "Product Enquiry from"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:860
+msgid "Product Name:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:861
+msgid "Product URL:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:862
+msgid "Customer Name:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:863
+msgid "Customer Email:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:864
+msgid "Message:"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:870
+msgid "Enquiry was sent succesfully"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:875
+msgid "Unfortunately, a server issue prevented delivery of your message."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:880
+msgid "Unauthorized access."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:941
+msgid "And Congrats! They have subscribed to your newsletter too!"
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:942
+msgid "We'll keep you updated with the latest developments."
+msgstr ""
+
+#: /home/praveen/PE/product-enquiry-for-woocommerce/product-enquiry-for-woocommerce.php:953
+#, php-format
+msgid ""
+"Hi there,Thank you for requesting the %s feature for Product Enquiry for "
+"WooCommerce.We will keep you updated with the latest developments.Thanks and "
+"Regards,WisdmLabs"
+msgstr ""
