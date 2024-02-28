@@ -98,36 +98,7 @@ if ( $is_product ) {
 			?>
 			<?php do_action( 'pefree_after_enquiry_form' ); ?>
 		</form>
-		<!-- <?php
-		$site_url          = site_url();
-		$domain_name       = htmlspecialchars( url_to_domain( $site_url ) );
-		$domain_name_value = ord( $domain_name );
 
-		if ( $domain_name_value >= 97 && $domain_name_value <= 102 ) {
-			$display_url     = 'https://wisdmlabs.com/';
-			$display_message = 'WordPress Development Experts';
-			$prefix          = 'Brought to you by WisdmLabs: ';
-			$suffix          = '';
-		} elseif ( $domain_name_value >= 103 && $domain_name_value <= 108 ) {
-			$display_url     = 'https://wisdmlabs.com/wordpress-development-services/plugin-development/';
-			$display_message = 'Expert WordPress Plugin Developer';
-			$prefix          = 'Brought to you by WisdmLabs: ';
-			$suffix          = '';
-		} elseif ( $domain_name_value >= 109 && $domain_name_value <= 114 ) {
-			$display_url     = 'https://wisdmlabs.com/woocommerce-extension-development-customization-services/';
-			$display_message = 'Expert WooCommerce Developer';
-			$prefix          = 'Brought to you by WisdmLabs: ';
-			$suffix          = '';
-		} else {
-			$display_url     = 'https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreepremiumtab&utm_medium=pefreepremiumtab&utm_campaign=pefreepremiumtab&utm_term=pefreepremiumtab&utm_content=pefreepremiumtab';
-			
-			$display_message = 'WooCommerce Enquiry Plugin';
-			$prefix          = '';
-			$suffix          = ' by WisdmLabs';
-		}
-		?> -->
-		<!-- <div class='contact-bottom'><a href='#' onclick="return false;"><?php echo esc_attr( $prefix ); ?></a><a href='<?php echo esc_attr( $display_url ); ?>' target='_blank' rel='nofollow'><?php echo esc_attr( $display_message ); ?></a><a href='#' onclick="return false;"><?php echo esc_attr( $suffix ); ?></a></div>
-		</div> -->
 		<!-- preload the images -->    
 		<div id="loading" style='display: none;'>
 			<div id="send_mail"><p><?php esc_attr_e( 'Sending...', 'product-enquiry-for-woocommerce' ); ?></p>
