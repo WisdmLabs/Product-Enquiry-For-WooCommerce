@@ -98,7 +98,7 @@ if ( $is_product ) {
 			?>
 			<?php do_action( 'pefree_after_enquiry_form' ); ?>
 		</form>
-		<?php
+		<!-- <?php
 		$site_url          = site_url();
 		$domain_name       = htmlspecialchars( url_to_domain( $site_url ) );
 		$domain_name_value = ord( $domain_name );
@@ -125,9 +125,9 @@ if ( $is_product ) {
 			$prefix          = '';
 			$suffix          = ' by WisdmLabs';
 		}
-		?>
-		<div class='contact-bottom'><a href='#' onclick="return false;"><?php echo esc_attr( $prefix ); ?></a><a href='<?php echo esc_attr( $display_url ); ?>' target='_blank' rel='nofollow'><?php echo esc_attr( $display_message ); ?></a><a href='#' onclick="return false;"><?php echo esc_attr( $suffix ); ?></a></div>
-		</div>
+		?> -->
+		<!-- <div class='contact-bottom'><a href='#' onclick="return false;"><?php echo esc_attr( $prefix ); ?></a><a href='<?php echo esc_attr( $display_url ); ?>' target='_blank' rel='nofollow'><?php echo esc_attr( $display_message ); ?></a><a href='#' onclick="return false;"><?php echo esc_attr( $suffix ); ?></a></div>
+		</div> -->
 		<!-- preload the images -->    
 		<div id="loading" style='display: none;'>
 			<div id="send_mail"><p><?php esc_attr_e( 'Sending...', 'product-enquiry-for-woocommerce' ); ?></p>
