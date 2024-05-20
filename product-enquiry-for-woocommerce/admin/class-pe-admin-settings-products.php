@@ -52,12 +52,11 @@ class PE_Admin_Settings_Products {
 	public function add_ask_product_settings() {
 
 		wp_enqueue_script( 'wdm_wpi_validation' );
-		$nonce = wp_create_nonce( 'wdm-wpi-validation-nonce' );
 		wp_enqueue_script( 'postbox' );
 		?>
 		<div class="wrap wdm_leftwrap">
 			<?php
-			if ( isset( $_POST['notice_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['notice_nonce'] ), 'wdm-wpi-validation-nonce' ) && isset( $_GET['tab'] ) ) {
+			if ( isset( $_GET['tab'] ) ) {
 				$active_tab = sanitize_text_field( $_GET['tab'] );
 			} else {
 				$active_tab = 'form';
