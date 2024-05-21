@@ -4,11 +4,35 @@
 
 function pew_create_wisdm_sidebar($plugin_name, $wdm_plugin_slug)
 {
-   wp_enqueue_script('wdm_banner_fade_script',plugins_url('js/bjqs-1.3.min.js', __FILE__),array('jquery'));
-   wp_enqueue_style('wisdm_sidebar_css', plugins_url('wisdm_sidebar.css', __FILE__));
-   wp_enqueue_script('wdm_apprise_script',plugins_url('wdm_apprise_lib/apprise-1.5.full.js',__FILE__),array('jquery'));
-   wp_enqueue_style('wdm_apprise_style',plugins_url('wdm_apprise_lib/apprise.css',__FILE__));
-   
+   wp_enqueue_script(
+      'wdm_banner_fade_script',
+      plugins_url('js/bjqs-1.3.min.js', __FILE__),
+      array('jquery'),
+      filemtime(plugin_dir_path(__FILE__) . 'js/bjqs-1.3.min.js'), // Dynamic version number
+      true // Load in footer
+  );
+  
+  wp_enqueue_style(
+      'wisdm_sidebar_css',
+      plugins_url('wisdm_sidebar.css', __FILE__),
+      array(),
+      filemtime(plugin_dir_path(__FILE__) . 'wisdm_sidebar.css') // Dynamic version number
+  );
+  
+  wp_enqueue_script(
+      'wdm_apprise_script',
+      plugins_url('wdm_apprise_lib/apprise-1.5.full.js', __FILE__),
+      array('jquery'),
+      filemtime(plugin_dir_path(__FILE__) . 'wdm_apprise_lib/apprise-1.5.full.js'), // Dynamic version number
+      true // Load in footer
+  );
+  
+  wp_enqueue_style(
+      'wdm_apprise_style',
+      plugins_url('wdm_apprise_lib/apprise.css', __FILE__),
+      array(),
+      filemtime(plugin_dir_path(__FILE__) . 'wdm_apprise_lib/apprise.css') // Dynamic version number
+  );
    ?>
 
    <!--main starts-->
@@ -24,7 +48,7 @@ function pew_create_wisdm_sidebar($plugin_name, $wdm_plugin_slug)
         <div class="hr"></div>
         
         <p>Rate this plugin</p>
-        <a href="http://wordpress.org/support/view/plugin-reviews/<?php echo $wdm_plugin_slug; ?>" target="_blank"><div id="rating-stars"></div></a>
+        <a href="<?php echo esc_url('http://wordpress.org/support/view/plugin-reviews/' . $wdm_plugin_slug); ?>" target="_blank"><div id="rating-stars"></div></a>
         
         <div class="hr"></div>
         
@@ -34,7 +58,7 @@ function pew_create_wisdm_sidebar($plugin_name, $wdm_plugin_slug)
         </ul>
         
         <ul id="right-list">
-            <li><a href="http://wordpress.org/support/plugin/<?php echo $wdm_plugin_slug; ?>" target="_blank">Support</a></li>
+        <li><a href="<?php echo esc_url('http://wordpress.org/support/plugin/' . $wdm_plugin_slug); ?>" target="_blank">Support</a></li>
 	    <li><a href="http://wisdmlabs.com/services/" target="_blank">Services</a></li>
         </ul>
         
@@ -65,12 +89,13 @@ function pew_create_wisdm_sidebar($plugin_name, $wdm_plugin_slug)
       <div id="banner-fade">
 
         <!-- start Basic Jquery Slider -->
-        <ul class="bjqs">
-          <li><img src="<?php echo plugins_url('images/wp-plugin-specialists.jpg', __FILE__); ?>"></li>
-          <li><img src="<?php echo plugins_url('images/api-programming.jpg', __FILE__); ?>"></li>
-          <li><img src="<?php echo plugins_url('images/eCommerce-solutions.jpg', __FILE__); ?>"></li>
-          <li><img src="<?php echo plugins_url('images/responsive-design.jpg', __FILE__); ?>"></li>
-        </ul>
+         <ul class="bjqs">
+            <li><img src="<?php echo esc_url(plugins_url('images/wp-plugin-specialists.jpg', __FILE__)); ?>"></li>
+            <li><img src="<?php echo esc_url(plugins_url('images/api-programming.jpg', __FILE__)); ?>"></li>
+            <li><img src="<?php echo esc_url(plugins_url('images/eCommerce-solutions.jpg', __FILE__)); ?>"></li>
+            <li><img src="<?php echo esc_url(plugins_url('images/responsive-design.jpg', __FILE__)); ?>"></li>
+         </ul>
+
         <!-- end Basic jQuery Slider -->
 
       </div>
@@ -84,7 +109,8 @@ function pew_create_wisdm_sidebar($plugin_name, $wdm_plugin_slug)
         <form id="cde-form" method="post" action="">
             <input type="text" name="cde-full-name" id="cde-full-name" placeholder="Full Name" class="required" />
             <input type="email" name="cde-email" id="cde-email" placeholder="Email" class="required email" />
-	    <input type="text" name="cde-site-url" id="cde-site-url" placeholder="Site URL" class="url" value="<?php echo get_bloginfo('wpurl');?>" /> 
+            <input type="text" name="cde-site-url" id="cde-site-url" placeholder="Site URL" class="url" value="<?php echo esc_url(get_bloginfo('wpurl')); ?>" />
+
             <textarea id="cde-message" name="cde-message" placeholder="Message" class="required" ></textarea>
             <input type="submit" id="cde-submit" name="cde-submit" value="Send" />
         </form>
@@ -126,7 +152,13 @@ jQuery(document).ready(function(){
       </script>
 
 <?php
-    wp_enqueue_script('wdm_cde_validation', plugins_url('js/wdm-validate.js',__FILE__), array('jquery'));
+   wp_enqueue_script(
+      'wdm_cde_validation',
+      plugins_url('js/wdm-validate.js', __FILE__),
+      array('jquery'),
+      filemtime(plugin_dir_path(__FILE__) . 'js/wdm-validate.js'), // Dynamic version number
+      true // Load in footer
+  );
 ?>
 
 <script type='text/javascript'>
@@ -151,7 +183,7 @@ jQuery(document).ready(function()
 </script>
 
 <?php     
-   if(isset($_POST["cde-submit"]))
+   if( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || isset($_POST["cde-submit"] ) )
    {
       $to = 'support@wisdmlabs.com';
       
@@ -212,13 +244,13 @@ function pew_cde_set_contenttype()
 
 function pew_wdm_mail_from($email)
 {
-   $email = isset($_POST["cde-email"]) ? $_POST["cde-email"] : '';
+   $email = ( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || isset($_POST["cde-email"] ) ) ? $_POST["cde-email"] : '';
    return $email;
 }
 
 function pew_wdm_mail_from_name($name)
 {
-   $name = isset($_POST["cde-full-name"]) ? $_POST["cde-full-name"] : '';
+   $name = ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' )  || isset( $_POST["cde-full-name"] ) ) ? $_POST["cde-full-name"] : '';
    return $name;
 }
 ?>
