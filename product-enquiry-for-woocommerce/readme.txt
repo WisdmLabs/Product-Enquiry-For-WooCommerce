@@ -137,6 +137,9 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 
 == Changelog ==
 
+= 3.1.8.1 =
+* Fix:  Compatibility with latest version of WooCommerce(8.9.1).
+
 = 3.1.8 =
 * Fix:  Resolved Security related Issues.
 
