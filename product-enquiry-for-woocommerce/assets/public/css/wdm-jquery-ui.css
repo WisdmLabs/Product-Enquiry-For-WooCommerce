@@ -214,12 +214,12 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-dialog .ui-dialog-titlebar-close {
 	position: absolute;
-	right: .3em;
 	top: 50%;
 	width: 20px;
 	margin: -10px 0 0 0;
 	padding: 1px;
 	height: 20px;
+	right: 16px;
 }
 .ui-dialog .ui-dialog-content {
 	position: relative;
@@ -933,6 +933,9 @@ div.ui-dialog {position:fixed;}
 /* modal */
 .ui-dialog.wdm-enquiry-modal {
 	z-index: 99999 !important;
+	left: 10px;
+    right: 10px;
+    border-radius: 20px;
 }
 
 #enquiry{
