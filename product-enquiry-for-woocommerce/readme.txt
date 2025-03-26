@@ -137,6 +137,9 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 
 == Changelog ==
 
+= 3.2.1 =
+* Fix:      Fixed header visibility issue.
+
 = 3.2.0 =
 * Fix:      PE Free form now compatible for mobile view.
 * Tweak:    Compatibility with WooCommerce 9.7.1 ensured.
