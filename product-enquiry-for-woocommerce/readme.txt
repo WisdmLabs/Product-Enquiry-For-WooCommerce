@@ -7,7 +7,7 @@ Requires at least: 5.3
 Tested up to: 6.8.1
 Requires PHP: 5.6
 Stable tag: 3.2.2
-WooCommerce Version: 9.8.5
+WooCommerce Version: 9.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -137,14 +137,15 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 
 == Changelog ==
 
-= [Unreleased] =
-* Tweak: Compatibility with WordPress 6.8.1 ensured.
-* Tweak: Compatibility with WooCommerce 9.8.5 ensured.
-
 = 3.2.2 =
-* Fix:      Fixed header visibility issue.
+* Tweak:    Compatibility with WordPress 6.8.1 ensured.
+* Tweak:    Compatibility with WooCommerce 9.9.3 ensured.
+* Tweak:    Added compatibility with Astra theme.
 
 = 3.2.1 =
+* Fix:      Fixed header visibility issue.
+
+= 3.2.0 =
 * Fix:      PE Free form now compatible for mobile view.
 * Tweak:    Compatibility with WooCommerce 9.7.1 ensured.
 * Tweak:    Compatibility with WordPress 6.7.2 ensured.

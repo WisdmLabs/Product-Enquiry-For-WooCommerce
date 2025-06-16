@@ -12,7 +12,7 @@
  * WP requires at least: 5.3
  * WP tested up to: 6.8.1
  * WC requires at least: 4.0
- * WC tested up to: 9.8.5
+ * WC tested up to: 9.9.3
  *
  * @package  PEFree
  */

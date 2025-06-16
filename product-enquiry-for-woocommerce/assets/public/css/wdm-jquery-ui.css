@@ -1055,3 +1055,8 @@ button.pe-successful-enq-ok-btn {
     padding: 5px 20px;
     margin: 2% 0;
 }
+
+/* Added for Astra theme */
+.theme-astra input.contact.pe-show-enq-modal.wpi-button.single_add_to_cart_button.button.alt {
+    padding: 10px 20px;
+}
