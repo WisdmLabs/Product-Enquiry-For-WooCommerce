@@ -1,0 +1,151 @@
+
+/*wisdm sidebar css*/
+
+#wisdm_main_content
+{
+    width: 242px;
+    float: right;
+}
+
+#wisdm_container{
+    float: right;
+    width: 242px;
+    background: #f7f7f7;
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    margin: 20px 10px 20px 0;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+#wisdm_container p{
+    text-align: center;
+    color: #5a5a5a;
+}
+
+.wdm_leftwrap{
+    float: left;
+    width: 850px;
+}
+
+#wdm-logo{
+    height: 106px;
+    background-image: url("images/logo.png");
+    margin: 0 60px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#wdm-logo a, a:active, a:focus, a:visited{
+    outline: 0;
+    outline-style:none;
+    outline-width:0; 
+}
+
+.hr{
+    margin: 12px 0 -3px;
+    border-bottom: 1px solid #ccc;
+}
+
+#rating-stars{
+    background-image: url("images/rating-stars.png");
+    background-repeat: no-repeat;
+    height: 16px;
+    margin: 0 auto;
+    width: 105px;
+}
+
+#left-list, #right-list{
+    float: left;
+    margin-left: 32px;
+    margin-bottom: -5px;
+}
+#left-list a:hover, #right-list a:hover{
+    color: #d54e21;
+}
+
+#left-list li a{
+    color: #21759b;
+}
+
+#text-left-align{
+    padding: 0 10px 0 0;
+    line-height: 20px;
+    margin-bottom: -7px;
+}
+
+#wdm-donate{
+    
+    margin: 10px 10px 0 40px;
+}
+
+#wdm-donate form input,input:active,input:focus{
+    outline: 0;
+    outline-style:none;
+    outline-width:0; 
+}
+
+#ad{
+    width: 220px;
+    height: 152px;
+    margin: 20px 0px 20px 10px;
+    background: white;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+}
+
+#cde-form input[type="text"], #cde-form input[type="email"], #cde-form textarea{
+    width: 100%;
+    padding: 6px 5px 4px;
+    margin-top: 10px;
+}
+
+#cde-form textarea{
+    height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+#cde-form #cde-submit{
+    background: #2f7ea1;
+    color: white;
+    padding: 4px 10px;
+    float: right;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+#cde-form #cde-submit:hover{
+    background: #4599BC;
+    cursor: pointer;
+}
+
+#cde-form ::-webkit-input-placeholder { color:#999; }
+#cde-form ::-moz-placeholder { color:#999; } /* firefox 19+ */
+#cde-form :-ms-input-placeholder { color:#999; } /* ie */
+#cde-form input:-moz-placeholder { color:#999; }
+
+#enquiry-form{
+    cursor: pointer;
+}
+
+label.error
+{
+    color: red;
+}
+/* Basic jQuery Slider essential styles */
+
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}

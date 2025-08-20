@@ -1,0 +1,44 @@
+/* File: ./assets/admin/css/upsell.css */
+#pefree-upsell-overlay {
+	position: fixed;
+	top: 0; left: 0; right: 0; bottom: 0;
+	background: rgba(0,0,0,0.4);
+	z-index: 100000;
+}
+#pefree-upsell-modal {
+	background: #fff;
+	max-width: 560px;
+	margin: 10vh auto;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+	position: relative;
+	padding: 24px 24px 18px;
+}
+.pefree-upsell-close {
+	position: absolute;
+	top: 10px; right: 12px;
+	background: transparent;
+	border: 0;
+	font-size: 20px;
+	cursor: pointer;
+}
+.pefree-upsell-content h2 {
+	margin: 0 0 8px;
+}
+.pefree-upsell-content p {
+	margin-top: 0;
+	color: #444;
+}
+.pefree-upsell-benefits {
+	margin: 10px 0 16px 18px;
+	list-style: disc;
+}
+.pefree-upsell-actions {
+	display: flex;
+	gap: 8px;
+}
+.pefree-upsell-actions .button.button-primary {
+	background-color: #7f54b3;
+	border-color: #7f54b3;
+}
+

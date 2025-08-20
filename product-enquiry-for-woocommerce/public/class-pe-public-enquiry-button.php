@@ -110,8 +110,10 @@ class PE_Public_Enquiry_Button {
 	 */
 	public function get_enquiry_button_label() {
 		$form_data = Product_Enquiry_For_Woocommerce::pe_settings();
-
-		return empty( $form_data['custom_label'] ) ? esc_html__( 'Make an enquiry for this product', 'product-enquiry-for-woocommerce' ) : esc_html__( $form_data['custom_label'], 'product-enquiry-for-woocommerce');
+	
+		return empty( $form_data['custom_label'] ) ? 
+			esc_html__( 'Make an enquiry for this product', 'product-enquiry-for-woocommerce' ) : 
+			esc_html( $form_data['custom_label'] );
 	}
 	/**
 	 * Ask about product function

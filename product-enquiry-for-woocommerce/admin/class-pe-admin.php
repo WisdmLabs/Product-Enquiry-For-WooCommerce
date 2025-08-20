@@ -71,10 +71,15 @@ class PE_Admin {
 			'default_sub',
 			'custom_label',
 			'enquiry_privacy_policy_text',
+			'user_custom_css',
 		);
 
 		foreach ( $setting_names as $setting_name ) {
 			$new_value[ $setting_name ] = normalize_whitespace( $new_value[ $setting_name ] );
+			if ( 'user_custom_css' == $setting_name ) {
+				// $new_value[ $setting_name ] = wp_strip_all_tags( $new_value[ $setting_name ] );
+				$new_value[ $setting_name ] = filter_var($new_value[ $setting_name ], FILTER_SANITIZE_STRING);
+			}
 		}
 
 		return $new_value;

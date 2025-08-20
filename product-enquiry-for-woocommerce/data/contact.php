@@ -16,28 +16,28 @@
 
 //date_default_timezone_set('America/Los_Angeles');
 
-if(isset($_POST['wdm_form_dataset']))
+if( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || isset( $_POST['wdm_form_dataset'] ) )
 {
 	$form_data = $_POST['wdm_form_dataset'];
 }
 
-if(isset($_POST['wdm_admin_email']))
+if( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || isset($_POST['wdm_admin_email'] ) )
 {
 	$to_adm = $_POST['wdm_admin_email'];
 }
 
-if(isset($_POST['wdm_site_name']))
+if( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || isset($_POST['wdm_site_name'] ) )
 {
 	$site_name = $_POST['wdm_site_name'];
 }
 
 // User settings
-if (!empty($form_data['user_email']))
+if ( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || !empty($form_data['user_email'] ) )
 	$to = $form_data['user_email'];
 else
 	$to = $to_adm;
 	
-if (!empty($form_data['default_sub']))
+if ( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || !empty($form_data['default_sub'] ) )
 	$subject = $form_data['default_sub'];
 else
 	$subject = "Enquiry for a product from ".$site_name;
@@ -54,8 +54,8 @@ $extra = array(
 );
 
 // Process
-$action = isset($_POST["action"]) ? $_POST["action"] : "";
-if (empty($action)) {
+$action = ( ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) ) || isset($_POST["action"] ) ) ? $_POST["action"] : "";
+if ( empty( $action ) ) {
 	// Send back the contact form HTML
 	$output = "<div style='display:none'>
 	<div class='contact-top'></div>
@@ -108,23 +108,19 @@ if (empty($action)) {
 	<div class='contact-bottom'><a href='http://wisdmlabs.com' target='_blank'>Powered by WisdmLabs</a></div>
 </div>";
  
- echo $output;
+echo esc_html($output);
  
  $to = base64_encode($to);
  $subject = base64_encode($subject);
  $site_name = base64_encode($site_name);
  
   echo '<script type="text/javascript">
- jQuery(document).ready(
-		function()
-		{
-			jQuery("#wdm_form_mail_to").val("'.$to.'");
-			jQuery("#wdm_form_def_sub").val("'.$subject.'");
-			jQuery("#wdm_website_name").val("'.$site_name.'");
-			
-		}
-		);
- </script>';
+  jQuery(document).ready(function() {
+	  jQuery("#wdm_form_mail_to").val("<?php echo esc_js($to); ?>");
+	  jQuery("#wdm_form_def_sub").val("<?php echo esc_js($subject); ?>");
+	  jQuery("#wdm_website_name").val("<?php echo esc_js($site_name); ?>");
+  });
+  </script>';
  	
 }
 else if ($action == "send") {
@@ -155,7 +151,7 @@ else if ($action == "send") {
 }
 
 function smcf_token($s) {
-	return md5("smcf-" . $s . date("WY"));
+    return md5("smcf-" . $s . gmdate("WY"));
 }
 
 // Validate and send email

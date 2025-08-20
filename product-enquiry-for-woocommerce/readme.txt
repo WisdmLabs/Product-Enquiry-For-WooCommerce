@@ -1,39 +1,39 @@
 === Product Enquiry for WooCommerce ===
-Current Version: 3.1.7
+Current Version: 3.2.2
 Contributors: WisdmLabs
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info%40wisdmlabs%2ecom&lc=US&item_name=WisdmLabs%20Plugin%20Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: woocommerce inquiry, woocommerce enquiry, request a quote woocommerce, product enquiry for woocommerce, product inquiry for woocommerce
 Requires at least: 5.3
-Tested up to: 6.4.2
+Tested up to: 6.8.1
 Requires PHP: 5.6
-Stable tag: trunk
-WooCommerce Version: 8.4.0
+Stable tag: 3.2.2
+WooCommerce Version: 9.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Product Enquiry allows prospective customers to “Make an Enquiry” about a product, or “Request a Quote” right from within the product page.
+Product Enquiry allows prospective customers to "Make an Enquiry" about a product, or "Request a Quote" right from within the product page.
 
 == Description ==
 
 Missing out on **pre-sale inquiries**? WISDM Product Enquiry for WooCommerce is the perfect plugin for you.
 
-Potential customers have questions about products they want to purchase. WISDM Product Enquiry for WooCommerce lets you add an ‘**Inquiry**’ or ‘**Request a Quote**’ button on every product page. 
+Potential customers have questions about products they want to purchase. WISDM Product Enquiry for WooCommerce lets you add an '**Inquiry**' or '**Request a Quote**' button on every product page. 
 
 Interested buyers can use this option to send across doubts or quote requests. You can:
 - Connect with **genuine leads**
-- Address **customer’s exact concerns** and queries
-- Get good insights into your **customers’ demands**
+- Address **customer's exact concerns** and queries
+- Get good insights into your **customers' demands**
 - **Negotiate** purchase quotations
 - And quickly **convert** unsure customers into buyers!
 
 
 = Capture Pre-sale Inquiries =
 
-You can place the ‘Inquiry’ or ‘Request a Quote’ button on your products page and allow visitors to make pre-sale Inquiries or negotiate for a list of products they’re interested in. In doing so, you’ll be able to **capture genuine leads** and convert them into buyers sooner than expected. 
+You can place the 'Inquiry' or 'Request a Quote' button on your products page and allow visitors to make pre-sale Inquiries or negotiate for a list of products they're interested in. In doing so, you'll be able to **capture genuine leads** and convert them into buyers sooner than expected. 
 
 = Easily Customize Link or Button =
 
-You have full freedom to customize or label the button or link text as “Make an Inquiry”, “Request a Quote”, or “Quote to Order”, etc. to suit your convenience. This will make it easier for your customers to immediately understand and **perform an action**.
+You have full freedom to customize or label the button or link text as "Make an Inquiry", "Request a Quote", or "Quote to Order", etc. to suit your convenience. This will make it easier for your customers to immediately understand and **perform an action**.
 
 
 = Collect Inquiries on Product Variations =
@@ -43,14 +43,14 @@ You can use this option to allow interested customers to Inquire or Request Quot
 
 = Effortlessly Configure Settings =
 
-As a plugin user/administrator, you have the freedom to configure **where to show the Enquiry or Request a Quote button** on the product page, an option to **style the buttons**, and many other details too. (check out the screenshot ‘Plugin configuration’ for more details). 
+As a plugin user/administrator, you have the freedom to configure **where to show the Enquiry or Request a Quote button** on the product page, an option to **style the buttons**, and many other details too. (check out the screenshot 'Plugin configuration' for more details). 
 
 
 = Receive Inquiries/Quotations via Email =
 
 Delegate responsibilities to the team by adding **multiple recipient email ids** for incoming product inquiries or quotations. An email with details such as site name, product name, product URL, customer name, and inquiry message is sent in a well-formatted manner. 
 
-Moreover, you can also configure the setting to help customers keep a tab on their Quotations by allowing them the option to send a “**copy of email**” to themselves.
+Moreover, you can also configure the setting to help customers keep a tab on their Quotations by allowing them the option to send a "**copy of email**" to themselves.
 
 
 = Get Quick Support =
@@ -71,7 +71,7 @@ Using this, you can empower your customers to send a single quotation request fo
 
 
 Pro Review:
-> _"I was looking for a plugin for WooCommerce to request a quote. I tried several plugins with no or a bad result. At the very end I bought the plugin Product Enquiry Pro of WisdmLabs, that was working out of the box. I highly recommend WisdmLabs!"_
+> "_"I was looking for a plugin for WooCommerce to request a quote. I tried several plugins with no or a bad result. At the very end I bought the plugin Product Enquiry Pro of WisdmLabs, that was working out of the box. I highly recommend WisdmLabs!"_
 > -Leo Verzijl
 
 
@@ -103,9 +103,9 @@ Please Note:
 
 As this is an extension for the WooCommerce plugin, you must have WooCommerce plugin installed already.
 
-1. Upload ‘product-enquiry-for-woocommerce’ folder to the ‘/wp-content/plugins/’ directory or upload ‘product-enquiry-for-woocommerce.zip’ through WordPress admin panel
-2. Activate the plugin through the ‘Plugins’ menu in WordPress
-3. Visit the ‘Product Enquiry’ menu page to configure settings.
+1. Upload 'product-enquiry-for-woocommerce' folder to the '/wp-content/plugins/' directory or upload 'product-enquiry-for-woocommerce.zip' through WordPress admin panel
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Visit the 'Product Enquiry' menu page to configure settings.
 
 == Frequently Asked Questions ==
 = Does the Enquiry plugin work with all the Product types? =
@@ -136,6 +136,31 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 8. Form to submit the inquiry
 
 == Changelog ==
+
+= 3.2.2 =
+* Tweak:    Compatibility with WordPress 6.8.1 ensured.
+* Tweak:    Compatibility with WooCommerce 9.9.3 ensured.
+* Tweak:    Added compatibility with Astra theme.
+
+= 3.2.1 =
+* Fix:      Fixed header visibility issue.
+
+= 3.2.0 =
+* Fix:      PE Free form now compatible for mobile view.
+* Tweak:    Compatibility with WooCommerce 9.7.1 ensured.
+* Tweak:    Compatibility with WordPress 6.7.2 ensured.
+
+= 3.1.9 =
+* Fix:  Integrated with PhotoSwip.
+
+= 3.1.8.1 =
+* Fix:  Compatibility with latest version of WooCommerce(8.9.1).
+
+= 3.1.8 =
+* Fix:  Resolved Security related Issues.
+
+= 3.1.7.1 =
+* Tweak: Removed branding URLs.
 
 = 3.1.7 =
 * Feature: Compatibility with HPOS.
