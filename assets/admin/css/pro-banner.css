@@ -1,0 +1,80 @@
+.form-table {
+	clear: left;
+}
+
+.pro-banner {
+	float: right;
+	margin-top: 15px;
+	text-align: center;
+	width: 28%;
+}
+
+.pro-banner-heading {
+	background-color: #454545;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 8%;
+}
+
+.pro-banner-heading h3 {
+	color: white;
+	margin: 2%;
+}
+
+.banner-content {
+	background-color: #f7f7f7;
+	padding: 5% 10%;
+}
+
+ul.features-list {
+	color: #961a1d;
+	list-style: disc;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 80%;
+}
+
+ul.features-list li span {
+	color: #444;
+}
+
+ul.features-list li a {
+	/* text-decoration: none; */
+	outline: none;
+	box-shadow: none;
+}
+
+ul.features-list li a:hover {
+	text-decoration: underline;
+}
+
+.pro-redirect-button-wrapper button {
+	background-color: #961a1d;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	outline: 0;
+	padding: 5% 10% 5%;
+	width: 100%;
+}
+
+.banner-content-footer img {
+	margin-bottom: 1px;
+	margin-right: 1px;
+	vertical-align: text-bottom;
+	width: 12px;
+}
+
+.banner-content-footer .pep-rating {
+	margin: 1em 0 0 0;
+}
+
+.banner-content-footer .pep-hp-cust {
+	margin: 0 0 1em 0;
+}
+
+.hp-cust-number {
+	color: #961a1d;
+}
