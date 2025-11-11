@@ -135,6 +135,9 @@ class PE_Admin_Settings_Products {
 				$form_tab->quotation_tab_functionality_helper();
 			}
 			do_action( 'product_enquiry_tab_content', $active_tab );
+
+			// Beacon Icon hook
+			do_action('product_enquiry_for_woocommerce_backend_page');
 			?>
 		</div>
 		<?php

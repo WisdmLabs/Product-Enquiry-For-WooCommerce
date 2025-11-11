@@ -1,0 +1,122 @@
+/*
+ * File: assets/admin/css/white-blue.css
+ * Purpose: Minimal white background with blue accents similar to Pro
+ */
+
+:root {
+	--pe-blue: #2271b1;
+	--pe-blue-hover: #135e96;
+	--pe-border: #e5e7eb;
+	--pe-text: #0f172a;
+	--pe-muted: #64748b;
+}
+
+.wrap.wdm_leftwrap { background: #fff; }
+
+.wrap .nav-tab-wrapper { border-bottom: 1px solid var(--pe-border); }
+.wrap .nav-tab-wrapper .nav-tab { background: #fff; border: 1px solid var(--pe-border); border-bottom: none; color: var(--pe-text); }
+.wrap .nav-tab-wrapper .nav-tab.nav-tab-active { border-color: var(--pe-blue); color: #0f172a; }
+.wrap .nav-tab-wrapper a.premium { background: var(--pe-blue); color: #fff; }
+.wrap .nav-tab-wrapper a.premium.nav-tab-active { background: #fff; color: var(--pe-blue); }
+
+/* Title styles reverted to default WordPress look */
+
+/* Box model & containers */
+#ask_abt_product_panel, #ask_abt_product_panel * { box-sizing: border-box; }
+
+/* Metaboxes as clean panels */
+#ask_abt_product_panel .postbox { background: #fff; border: 1px solid var(--pe-border); border-radius: 12px; box-shadow: 0 2px 8px rgba(2,6,23,.04); transition: box-shadow .2s ease, border-color .2s ease; overflow: hidden; }
+#ask_abt_product_panel .postbox:hover { box-shadow: 0 6px 20px rgba(2,6,23,.08); border-color: #dbe3ec; }
+#ask_abt_product_panel .postbox .hndle { background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%); color: #ffffff; border-bottom: 0; padding: 14px 18px; font-weight: 700; display: flex; align-items: center; gap: 10px; border-top-left-radius: 12px; border-top-right-radius: 12px; box-shadow: 0 8px 20px rgba(59,130,246,.22); }
+#ask_abt_product_panel .postbox .inside { padding: 16px; }
+
+#ask_abt_product_panel .button-primary { background: var(--pe-blue); border-color: var(--pe-blue); }
+#ask_abt_product_panel .button-primary:hover { background: var(--pe-blue-hover); border-color: var(--pe-blue-hover); }
+
+/* Secondary and default buttons on settings page */
+#ask_abt_product_panel .button,
+#ask_abt_product_panel .button-secondary {
+	background: #ffffff;
+	color: var(--pe-blue);
+	border: 1px solid var(--pe-blue);
+	border-radius: 6px;
+	padding: 6px 12px;
+	box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+#ask_abt_product_panel .button:hover,
+#ask_abt_product_panel .button-secondary:hover {
+	background: rgba(34, 113, 177, 0.06);
+	border-color: var(--pe-blue-hover);
+	color: var(--pe-blue-hover);
+}
+
+#ask_abt_product_panel .button:focus,
+#ask_abt_product_panel .button-secondary:focus,
+#ask_abt_product_panel .button-primary:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.25);
+}
+
+#ask_abt_product_panel .button:disabled,
+#ask_abt_product_panel .button-secondary:disabled,
+#ask_abt_product_panel .button-primary:disabled {
+	opacity: .6;
+	filter: grayscale(.1);
+	cursor: not-allowed;
+}
+
+/* Inputs */
+#ask_abt_product_panel input[type="text"],
+#ask_abt_product_panel input[type="email"],
+#ask_abt_product_panel input[type="url"],
+#ask_abt_product_panel input[type="number"],
+#ask_abt_product_panel select,
+#ask_abt_product_panel textarea { border: 2px solid var(--pe-border); border-radius: 8px; padding: 12px 14px; color: var(--pe-text); }
+
+#ask_abt_product_panel input[type="text"]:hover,
+#ask_abt_product_panel input[type="email"]:hover,
+#ask_abt_product_panel input[type="url"]:hover,
+#ask_abt_product_panel input[type="number"]:hover,
+#ask_abt_product_panel select:hover,
+#ask_abt_product_panel textarea:hover { border-color: var(--pe-blue); box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.10); }
+
+#ask_abt_product_panel input[type="text"]:focus,
+#ask_abt_product_panel input[type="email"]:focus,
+#ask_abt_product_panel input[type="url"]:focus,
+#ask_abt_product_panel input[type="number"]:focus,
+#ask_abt_product_panel select:focus,
+#ask_abt_product_panel textarea:focus { outline: none; border-color: var(--pe-blue); box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.20); }
+
+/* Form table layout spacing */
+#ask_abt_product_panel .form-table { margin-top: 6px; }
+#ask_abt_product_panel .form-table th { width: 260px; padding: 12px 12px 12px 0; color: var(--pe-text); font-weight: 600; }
+#ask_abt_product_panel .form-table td { padding: 10px 0; }
+#ask_abt_product_panel .description { color: var(--pe-muted); }
+
+/* Select dropdown caret and spacing */
+#ask_abt_product_panel select { appearance: none; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e"); background-repeat: no-repeat; background-position: right 12px center; background-size: 16px; padding-right: 40px; }
+
+/* Checkboxes and radios refined, scoped to settings form only */
+#ask_abt_product_panel input[type="checkbox"],
+#ask_abt_product_panel input[type="radio"] { appearance: none; -webkit-appearance: none; -moz-appearance: none; width: 1.1rem; height: 1.1rem; border: 2px solid #cbd5e1; border-radius: 3px; background: #ffffff; cursor: pointer; position: relative; transition: all 0.2s ease; vertical-align: middle; }
+
+#ask_abt_product_panel input[type="radio"] { border-radius: 50%; }
+
+#ask_abt_product_panel input[type="checkbox"]:focus,
+#ask_abt_product_panel input[type="radio"]:focus { outline: none; border-color: var(--pe-blue); box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.20); }
+
+#ask_abt_product_panel input[type=checkbox]:checked::before { content: "✓"; color: var(--pe-blue); font-size: 14px; font-weight: 700; line-height: 1; text-align: center; position: absolute; left: 2px; top: 1px; }
+
+#ask_abt_product_panel input[type=radio]:checked::before { content: ""; border-radius: 50%; width: 8px; height: 8px; margin: 3px; background-color: var(--pe-blue); position: absolute; left: 1px; top: 1px; }
+
+/* Help tips */
+#ask_abt_product_panel .woocommerce-help-tip { margin-left: 8px; }
+
+/* Responsive */
+@media (max-width: 782px) {
+	#ask_abt_product_panel .form-table th { width: auto; display: block; padding-bottom: 4px; }
+	#ask_abt_product_panel .form-table td { display: block; }
+}
+
+

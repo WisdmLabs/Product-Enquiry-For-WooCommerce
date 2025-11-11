@@ -46,6 +46,12 @@ $hp_customers = sprintf( __( 'Trusted by %1$s3180+%2$s happy customers', 'produc
 						<span><?php esc_html_e( 'Translation-ready with WPML Support', 'product-enquiry-for-woocommerce' ); ?></span>
 					</a>
 				</li>
+				<li>
+					<span><?php esc_html_e( 'WhatsApp Button Integration', 'product-enquiry-for-woocommerce' ); ?></span>
+				</li>
+				<li>
+					<span><?php esc_html_e( 'Show enquiry button only when product is out of stock', 'product-enquiry-for-woocommerce' ); ?></span>
+				</li>
 			</ul>
 		</div>
 

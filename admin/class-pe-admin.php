@@ -92,6 +92,7 @@ class PE_Admin {
 		wp_register_style( 'premium-style', WDM_PE_PLUGIN_URL . 'assets/admin/css/style.css', array(), PEFREE_VERSION );
 		wp_register_style( 'premium-fontstyle', WDM_PE_PLUGIN_URL . 'assets/admin/css/font.css', array(), PEFREE_VERSION );
 		wp_register_style( 'pefree-upsell', WDM_PE_PLUGIN_URL . 'assets/admin/css/upsell.css', array(), PEFREE_VERSION );
+		wp_register_style( 'pefree-activation-popup', WDM_PE_PLUGIN_URL . 'assets/admin/css/activation-popup.css', array(), PEFREE_VERSION );
 	}
 	/**
 	 * To register stylesheets
@@ -108,5 +109,6 @@ class PE_Admin {
 		wp_register_script( 'wdm-settings', WDM_PE_PLUGIN_URL . 'assets/admin/js' . $prefix . '/settings' . $suffix . '.js', array( 'jquery' ), filemtime( WDM_PE_PLUGIN_PATH . 'assets/admin/js' . $prefix . '/settings' . $suffix . '.js' ), false );
 		wp_register_script( 'wdm-subme-js', WDM_PE_PLUGIN_URL . 'assets/admin/js' . $prefix . '/wdm_subme' . $suffix . '.js', array( 'jquery' ), filemtime( WDM_PE_PLUGIN_PATH . 'assets/admin/js' . $prefix . '/wdm_subme' . $suffix . '.js' ), true );
 		wp_register_script( 'pefree-upsell', WDM_PE_PLUGIN_URL . 'assets/admin/js/upsell.js', array( 'jquery' ), filemtime( WDM_PE_PLUGIN_PATH . 'assets/admin/js/upsell.js' ), true );
+		wp_register_script( 'pefree-activation-popup', WDM_PE_PLUGIN_URL . 'assets/admin/js/activation-popup.js', array( 'jquery' ), filemtime( WDM_PE_PLUGIN_PATH . 'assets/admin/js/activation-popup.js' ), false );
 	}
 }

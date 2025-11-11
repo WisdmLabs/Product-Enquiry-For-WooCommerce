@@ -56,5 +56,16 @@ $form_data = Product_Enquiry_For_Woocommerce::pe_settings();
 				<span class="description"><?php esc_html_e( 'Show enquiry button only when product is out of stock.', 'product-enquiry-for-woocommerce' ); ?></span>
 			</td>
 		</tr>
+		<tr valign="top">
+			<th scope="row" class="titledesc">
+				<label for="enable_whatsapp_button">
+				<?php esc_attr_e( 'Enable WhatsApp Button', 'product-enquiry-for-woocommerce' ); ?></label>
+			</th>
+			<td class="forminp forminp-text">
+				<input type="checkbox" disabled class="wdm_wpi_input wdm_wpi_checkbox" value="1" id="enable_whatsapp_button" />
+				<span title='Pro Feature' class='pew_pro_txt'><?php esc_html_e( '[Available in PRO]', 'product-enquiry-for-woocommerce' ); ?></span>
+				<span class="description"><?php esc_html_e( 'Enable WhatsApp button for product enquiries.', 'product-enquiry-for-woocommerce' ); ?></span>
+			</td>
+		</tr>
 	</tbody>
 </table>
