@@ -1,13 +1,13 @@
 === Product Enquiry for WooCommerce ===
-Current Version: 3.2.4
+Current Version: 3.2.5
 Contributors: WisdmLabs
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info%40wisdmlabs%2ecom&lc=US&item_name=WisdmLabs%20Plugin%20Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: woocommerce inquiry, woocommerce enquiry, request a quote woocommerce, product enquiry for woocommerce, product inquiry for woocommerce
 Requires at least: 5.3
 Tested up to: 6.8.3
 Requires PHP: 5.6
-Stable tag: 3.2.4
-WooCommerce Version: 10.3.4
+Stable tag: 3.2.5
+WooCommerce Version: 10.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -136,6 +136,11 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 8. Form to submit the inquiry
 
 == Changelog ==
+
+= 3.2.5 =
+* Feature:  Added support beacon code for customer queries.
+* Tweak:    Compatibility with WordPress 6.8.3 ensured.
+* Tweak:    Compatibility with WooCommerce 10.3.4 ensured.
 
 = 3.2.4 =
 * Feature:  Added activation popup with advanced UI to promote Pro features.
