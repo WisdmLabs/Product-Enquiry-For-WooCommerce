@@ -1,0 +1,685 @@
+# Copyright (C) 2021 WisdmLabs
+# This file is distributed under the same license as the Product Enquiry for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Enquiry for WooCommerce 3.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-enquiry-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-20T13:56:23+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: product-enquiry-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+msgid "Product Enquiry for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/product-enquiry-for-woocommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows prospective customers or visitors to make enquiry about a product, right from within the product page."
+msgstr ""
+
+#. Author of the plugin
+#: admin/class-pe-admin-settings.php:71
+msgid "WisdmLabs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wisdmlabs.com"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:117
+msgid "Product Enquiry from"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:118
+msgid "Product Name:"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:121
+msgid "Variation Name:"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:124
+msgid "Product URL:"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:125
+msgid "Customer Name:"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:126
+msgid "Customer Email:"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:127
+msgid "Message:"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:130
+msgid "Customer Phone Number:"
+msgstr ""
+
+#. translators: search term
+#: admin/class-pe-admin-enquiry-form-ajax.php:135
+msgid "%s accepted the enquiry terms and conditions"
+msgstr ""
+
+#. translators: search term, abc
+#: admin/class-pe-admin-enquiry-form-ajax.php:142
+msgid "%1$s Learn More %2$s"
+msgstr ""
+
+#. translators: search term, abc
+#: admin/class-pe-admin-enquiry-form-ajax.php:145
+msgid "Checkout %1$s Product Enquiry Pro %2$s for these <b>PREMIUM</b> features"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:147
+msgid "Request a Quote System: The pro version allows customers to request a quote for your products."
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:148
+msgid "Create Quotation: Creating a fresh quotation, right from the dashboard takes only a few clicks."
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:149
+msgid "Multiproduct Enquiry: Allow customers to add multiple products to the \"Enquiry Cart\" and send their queries on a product level in a single enquiry."
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:150
+msgid "Compatibility with the latest versions of WordPress and WooCommerce at all times."
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:151
+msgid "And much more..."
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:186
+msgid "Enquiry was sent successfully"
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:197
+msgid "Unfortunately, a server issue prevented delivery of your message."
+msgstr ""
+
+#: admin/class-pe-admin-enquiry-form-ajax.php:209
+msgid "Unauthorized access."
+msgstr ""
+
+#: admin/class-pe-admin-newsletter-subcribe.php:51
+msgid "And Congrats! They have subscribed to your newsletter too!"
+msgstr ""
+
+#: admin/class-pe-admin-newsletter-subcribe.php:52
+msgid "We'll keep you updated with the latest developments."
+msgstr ""
+
+#. translators: search term, abc
+#: admin/class-pe-admin-newsletter-subcribe.php:55
+msgid "Hi,A feature request has been made for Product enquiry free, by %1$s .Requested Feature: %2$s %3$s Thanks and Regards,This is an automated mail, sent by WisdmLabs"
+msgstr ""
+
+#. translators: search term, abc
+#: admin/class-pe-admin-newsletter-subcribe.php:57
+msgid ""
+"Hi there, \n"
+"\n"
+"Thank you for requesting the %s feature for Product Enquiry for WooCommerce.We will keep you updated with the latest developments. \n"
+"\n"
+"Thanks and Regards,\n"
+"WisdmLabs"
+msgstr ""
+
+#: admin/class-pe-admin-newsletter-subcribe.php:62
+msgid "Your Feature Request Has Been Sent!"
+msgstr ""
+
+#: admin/class-pe-admin-plugin-links.php:40
+msgid "Settings"
+msgstr ""
+
+#: admin/class-pe-admin-plugin-links.php:62
+msgid "Support"
+msgstr ""
+
+#: admin/class-pe-admin-settings-enquiry-details-tab.php:50
+msgid "This feature is available in the PRO version. Click below to know more."
+msgstr ""
+
+#: admin/class-pe-admin-settings-enquiry-details-tab.php:51
+#: templates/other-extensions-tab.php:27
+#: templates/other-extensions-tab.php:41
+#: templates/other-extensions-tab.php:55
+#: templates/other-extensions-tab.php:69
+#: templates/other-extensions-tab.php:86
+#: templates/other-extensions-tab.php:106
+msgid "View Details"
+msgstr ""
+
+#: admin/class-pe-admin-settings-form-tab.php:51
+#: templates/email-information.php:20
+msgid "Please enter valid Email address."
+msgstr ""
+
+#: admin/class-pe-admin-settings-form-tab.php:52
+msgid "Email can't be blank."
+msgstr ""
+
+#: admin/class-pe-admin-settings-form-tab.php:56
+#: templates/enq-button-options.php:55
+msgid "[Available in PRO]"
+msgstr ""
+
+#: admin/class-pe-admin-settings-products.php:47
+msgid "Product Enquiry"
+msgstr ""
+
+#: admin/class-pe-admin-settings-products.php:67
+msgid "Enquiry Settings"
+msgstr ""
+
+#: admin/class-pe-admin-settings-products.php:71
+msgid "Quotation"
+msgstr ""
+
+#: admin/class-pe-admin-settings-products.php:75
+msgid "Enquiry Details"
+msgstr ""
+
+#: admin/class-pe-admin-settings-products.php:79
+msgid "Other Extensions"
+msgstr ""
+
+#. translators: sup HTML tag
+#: admin/class-pe-admin-settings-products.php:89
+msgid "%1$s PRO %2$s"
+msgstr ""
+
+#: admin/class-pe-admin-settings-products.php:98
+msgid "Premium Version"
+msgstr ""
+
+#: admin/class-pe-admin-settings.php:65
+msgid "Dear User,"
+msgstr ""
+
+#: admin/class-pe-admin-settings.php:67
+msgid "This is to inform you that WisdmLabs does not collect any user data. The data that is sent directly to your inbox after filling the enquiry form is your sole responsibility and we urge you to update the privacy policy of your websites."
+msgstr ""
+
+#: admin/class-pe-admin-settings.php:70
+msgid "Regards,"
+msgstr ""
+
+#: admin/class-pe-admin-settings.php:85
+msgid "Product Enquiry Pro plugin is active. Please deactivate in order to install Product Enquiry Free"
+msgstr ""
+
+#. translators: %1$s:html %2$s:PHP Version %3$s:html
+#: includes/class-product-enquiry-for-woocommerce.php:96
+msgid "%1$s %2$s %3$s is inactive. %4$sInstall and activate%5$s %6$sWooCommerce%7$s for %8$s to work."
+msgstr ""
+
+#. translators: search term, abc
+#: includes/common-functions.php:33
+msgid "I allow the Site owner to contact me via email/phone to discuss this enquiry. (If you want to know more about the way this site handles the data, then please go through our %s)."
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:114
+#: templates/enq-button-options.php:17
+msgid "Make an enquiry for this product"
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:156
+msgid "Name is required."
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:157
+msgid "Enter valid Email Id."
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:158
+msgid "Phone number is required."
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:159
+msgid "Enter valid phone number."
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:160
+msgid "Enquiry length must be atleast 10 characters."
+msgstr ""
+
+#: public/class-pe-public-enquiry-button.php:164
+msgid "OK"
+msgstr ""
+
+#: public/public-functions.php:32
+msgid "privacy policy"
+msgstr ""
+
+#: templates/email-information.php:15
+msgid "Recipient's email"
+msgstr ""
+
+#: templates/email-information.php:19
+msgid "Email is required."
+msgstr ""
+
+#: templates/email-information.php:21
+msgid "You can add multiple email addresses separated by comma."
+msgstr ""
+
+#: templates/email-information.php:26
+msgid "Default subject "
+msgstr ""
+
+#: templates/email-information.php:29
+msgid "Enquiry for a product from "
+msgstr ""
+
+#: templates/email-information.php:30
+msgid "Default subject field is required."
+msgstr ""
+
+#: templates/email-information.php:31
+msgid "Subject to be used if customer leaves subject field blank."
+msgstr ""
+
+#: templates/email-information.php:36
+msgid "Send mail to Admin "
+msgstr ""
+
+#: templates/email-information.php:45
+msgid "When checked, sends the enquiry email to the Admin email address specified under Settings -> General."
+msgstr ""
+
+#: templates/email-information.php:50
+msgid "Send mail to Product Author "
+msgstr ""
+
+#: templates/email-information.php:55
+msgid "When checked, sends enquiry email to author/owner of the Product."
+msgstr ""
+
+#: templates/email-information.php:60
+msgid "Disable nonce "
+msgstr ""
+
+#: templates/email-information.php:65
+msgid "Check this option if your enquiry system does not work properly or displays an \"Unauthorised Enquiry\" error. Note: In all other cases, we advise you to keep it  unchecked."
+msgstr ""
+
+#: templates/enq-button-options.php:14
+msgid "Enquiry button label"
+msgstr ""
+
+#: templates/enq-button-options.php:18
+msgid "Enquiry button label is required."
+msgstr ""
+
+#: templates/enq-button-options.php:19
+msgid "Add custom label for enquiry button."
+msgstr ""
+
+#: templates/enq-button-options.php:24
+msgid "Enquiry button location"
+msgstr ""
+
+#: templates/enq-button-options.php:28
+msgid " After add to cart button"
+msgstr ""
+
+#: templates/enq-button-options.php:35
+msgid " After single product summary "
+msgstr ""
+
+#: templates/enq-button-options.php:40
+msgid "Display Enquiry Button As A Link"
+msgstr ""
+
+#: templates/enq-button-options.php:45
+msgid "Displays Enquiry Button as a link on the single product page."
+msgstr ""
+
+#: templates/enq-button-options.php:51
+msgid "Show enquiry button only when product is out of stock"
+msgstr ""
+
+#: templates/enq-button-options.php:56
+msgid "Show enquiry button only when product is out of stock."
+msgstr ""
+
+#. translators: product title
+#: templates/enquiry-form.php:15
+msgid "Enquiry for %s"
+msgstr ""
+
+#: templates/enquiry-form.php:25
+msgid "Name"
+msgstr ""
+
+#: templates/enquiry-form.php:29
+msgid "Email"
+msgstr ""
+
+#: templates/enquiry-form.php:50
+msgid "Phone No"
+msgstr ""
+
+#: templates/enquiry-form.php:58
+msgid "Subject"
+msgstr ""
+
+#: templates/enquiry-form.php:62
+msgid "Enquiry"
+msgstr ""
+
+#: templates/enquiry-form.php:67
+#: templates/form-options.php:14
+msgid "Send me a copy"
+msgstr ""
+
+#: templates/enquiry-form.php:73
+msgid "Please select terms and conditions"
+msgstr ""
+
+#: templates/enquiry-form.php:94
+msgid "Send"
+msgstr ""
+
+#: templates/enquiry-form.php:132
+msgid "Sending..."
+msgstr ""
+
+#: templates/enquiry-tab.php:21
+msgid "Emailing Information"
+msgstr ""
+
+#: templates/enquiry-tab.php:22
+msgid "Enquiry Button Options"
+msgstr ""
+
+#: templates/enquiry-tab.php:24
+msgid "Form Options"
+msgstr ""
+
+#: templates/enquiry-tab.php:26
+msgid "Styling Options"
+msgstr ""
+
+#: templates/enquiry-tab.php:28
+msgid "Enquiry Terms and Conditions"
+msgstr ""
+
+#: templates/form-options.php:19
+msgid "This will display 'send me a copy' checkbox on enquiry form to send an email copy to the customer."
+msgstr ""
+
+#: templates/form-options.php:24
+msgid "Display 'Telephone Number Field'"
+msgstr ""
+
+#: templates/form-options.php:29
+msgid "Displays telephone number field on the enquiry form."
+msgstr ""
+
+#: templates/form-options.php:34
+msgid "Make 'Telephone Number' field mandatory"
+msgstr ""
+
+#: templates/form-options.php:39
+msgid "Make telephone number field mandatory while submitting the form."
+msgstr ""
+
+#: templates/other-extensions-tab.php:20
+#: templates/other-extensions-tab.php:100
+msgid "WISDM Customer Specific Pricing"
+msgstr ""
+
+#: templates/other-extensions-tab.php:23
+msgid "A dynamic pricing plugin that lets you set different prices for all your users, and add discounts, offers, and deals for product categories, product groups, Cart value, and much more."
+msgstr ""
+
+#: templates/other-extensions-tab.php:34
+#: templates/other-extensions-tab.php:99
+msgid "WISDM Product Enquiry Pro"
+msgstr ""
+
+#: templates/other-extensions-tab.php:37
+msgid "Add 'Request a Quote' & 'Product Enquiry' buttons on product catalog and shop pages to enable your potential buyers to contact you for a custom quote."
+msgstr ""
+
+#: templates/other-extensions-tab.php:48
+#: templates/other-extensions-tab.php:101
+msgid "WISDM Custom Product Bundles"
+msgstr ""
+
+#: templates/other-extensions-tab.php:51
+msgid "The bundling plugin you need to package your products together and sell them as a whole, even at massive discounts!"
+msgstr ""
+
+#: templates/other-extensions-tab.php:62
+#: templates/other-extensions-tab.php:102
+msgid "WISDM WooCommerce Scheduler"
+msgstr ""
+
+#: templates/other-extensions-tab.php:65
+msgid "A nifty add-on that lets you schedule the availability of your products. Increase buying urgency with 'limited time offers' and 'sale' strategies."
+msgstr ""
+
+#: templates/other-extensions-tab.php:74
+msgid "Free"
+msgstr ""
+
+#: templates/other-extensions-tab.php:79
+msgid "WISDM WooCommerce Product Catalog Manager"
+msgstr ""
+
+#: templates/other-extensions-tab.php:82
+msgid "Create a Members-only store by hiding product prices and the ‘Add to Cart’ option from guest users."
+msgstr ""
+
+#: templates/other-extensions-tab.php:93
+msgid "The Sales Booster Pack for WooCommerce"
+msgstr ""
+
+#: templates/other-extensions-tab.php:96
+msgid "A compilation of the best of our WooCommerce plugins to supercharge sales on your WooStore. This includes:"
+msgstr ""
+
+#: templates/pdf-options.php:9
+#: templates/quote-approval-rejection-options.php:9
+msgid "[These settings are available in PRO]"
+msgstr ""
+
+#: templates/pdf-options.php:23
+msgid "Enable PDF"
+msgstr ""
+
+#: templates/pdf-options.php:27
+msgid "You can enable/disable PDF."
+msgstr ""
+
+#: templates/pdf-options.php:36
+msgid "Company Name"
+msgstr ""
+
+#: templates/pdf-options.php:40
+msgid "The company name will be added in the Quotation PDF generated for the user."
+msgstr ""
+
+#: templates/pdf-options.php:48
+msgid "Company Email"
+msgstr ""
+
+#: templates/pdf-options.php:52
+msgid "The company email will be added in the Quotation PDF generated for the user."
+msgstr ""
+
+#: templates/pdf-options.php:60
+msgid "Company Address"
+msgstr ""
+
+#: templates/pdf-options.php:64
+msgid "The company address will be added in the Quotation PDF generated for the user."
+msgstr ""
+
+#. translators: %1$s:html
+#: templates/pro-banner.php:4
+msgid "Rated %s4.8"
+msgstr ""
+
+#. translators: %1$s:html %2$s:html
+#: templates/pro-banner.php:6
+msgid "Trusted by %1$s3180+%2$s happy customers"
+msgstr ""
+
+#: templates/pro-banner.php:12
+msgid "WISDM"
+msgstr ""
+
+#: templates/pro-banner.php:13
+msgid "Product Enquiry Pro for WooCommerce"
+msgstr ""
+
+#: templates/pro-banner.php:20
+msgid "Your suite of sweet features for a powerful enquiry & quotation system"
+msgstr ""
+
+#: templates/pro-banner.php:25
+msgid "Drag and Drop form builder"
+msgstr ""
+
+#: templates/pro-banner.php:30
+msgid "Auto-generation of Quote PDFs"
+msgstr ""
+
+#: templates/pro-banner.php:34
+msgid "Support for Simple Products"
+msgstr ""
+
+#: templates/pro-banner.php:37
+msgid "Support for Variable Products"
+msgstr ""
+
+#: templates/pro-banner.php:41
+msgid "Advanced Enquiry button display options"
+msgstr ""
+
+#: templates/pro-banner.php:46
+msgid "Translation-ready with WPML Support"
+msgstr ""
+
+#: templates/pro-banner.php:56
+msgid "Check out Product Enquiry Pro"
+msgstr ""
+
+#: templates/quotation-tab.php:12
+msgid "PDF Settings"
+msgstr ""
+
+#: templates/quotation-tab.php:14
+msgid "Quotation Approval/Rejection"
+msgstr ""
+
+#: templates/quotation-tab.php:16
+msgid "Custom Form Builder"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:21
+msgid "Approval/Rejection Page"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:25
+msgid "Select the page where the user can approve or reject the Quotation on the frontend generated for him/her. The user will be redirected to checkout page after Quotation approval."
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:29
+msgid "Select Page"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:35
+msgid "Approve Button Label"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:39
+msgid "The label (text) for approve button. Add custom label for approve quotation button."
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:47
+msgid "Reject Button Label"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:51
+msgid "The label (text) for reject button. Add custom label for reject quotation button."
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:59
+msgid "Reject Message"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:63
+msgid "Add custom message to display when customer rejects quote."
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:71
+msgid "Alternate word for Quote"
+msgstr ""
+
+#: templates/quote-approval-rejection-options.php:75
+msgid "Alternate word for Quote and Quotation. The Quote and Quotation texts will get replaced by this text."
+msgstr ""
+
+#: templates/styling-options.php:14
+msgid "Add custom CSS"
+msgstr ""
+
+#: templates/styling-options.php:28
+msgid "Custom styling"
+msgstr ""
+
+#: templates/styling-options.php:32
+msgid "Use activated theme's styling"
+msgstr ""
+
+#: templates/styling-options.php:34
+msgid "Manually specify color settings"
+msgstr ""
+
+#: templates/styling-options.php:41
+msgid " This feature is available in the PRO version. Click below to know more. "
+msgstr ""
+
+#: templates/styling-options.php:42
+msgid "View Details "
+msgstr ""
+
+#: templates/terms-condition-options.php:15
+msgid "Display Terms and Conditions"
+msgstr ""
+
+#: templates/terms-condition-options.php:20
+msgid "To display 'Terms and Conditions' checkbox on Enquiry form, you must enable this."
+msgstr ""
+
+#: templates/terms-condition-options.php:25
+msgid "Enquiry privacy policy"
+msgstr ""
+
+#: templates/terms-condition-options.php:33
+msgid "Privacy policy is required."
+msgstr ""
+
+#. translators: search term, abc
+#: templates/terms-condition-options.php:37
+msgid "For WP 4.9.6 and above %1$s will get automatically replaced with Privacy Policy Page link. If your site runs on WP below 4.9.6, then replace %2$s here with link to your Privacy Policy Page."
+msgstr ""

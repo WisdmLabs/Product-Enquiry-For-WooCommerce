@@ -1,0 +1,520 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product enquiry for woocommerce\n"
+"POT-Creation-Date: 2016-08-29 17:27+0530\n"
+"PO-Revision-Date: 2016-08-29 17:29+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: hi_IN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+
+#: product-enquiry-for-woocommerce.php:28
+#, php-format
+msgid ""
+"%s WooCommerce %s plugin is not active. In order to make %s Product Enquiry "
+"%s plugin work, you need to install and activate %s WooCommerce %s first"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:95
+#: product-enquiry-for-woocommerce.php:610
+msgid "Make an enquiry for this product"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:116
+#: product-enquiry-for-woocommerce.php:240
+#: product-enquiry-for-woocommerce.php:274
+msgid "Product Enquiry"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:120
+msgid "Name"
+msgstr "नाम"
+
+#: product-enquiry-for-woocommerce.php:125
+msgid "Email"
+msgstr "ईमेल"
+
+#: product-enquiry-for-woocommerce.php:129
+msgid "Subject"
+msgstr "विषय"
+
+#: product-enquiry-for-woocommerce.php:133
+msgid "Enquiry"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:139
+msgid "Send me a copy"
+msgstr "मुझे एक कॉपी भेजें"
+
+#: product-enquiry-for-woocommerce.php:144
+msgid "Send"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:145
+msgid "Cancel"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:182
+msgid "Sending..."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:200
+msgid "Name is required."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:201
+msgid "Enter valid Email Id."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:203
+msgid "Enquiry length must be atleast 10 characters."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:259
+msgid "Get The New Premium Version"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:285
+msgid "Enquiry Settings"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:286
+msgid "Enquiry Details"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:287
+msgid "Product Enquiry Ideas"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:288
+msgid "Hire Us"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:289
+msgid "Premium Version"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:299
+msgid "This feature is available in the PRO version. Click below to know more."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:300
+msgid "View Details"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:317
+#, php-format
+msgid ""
+"Product Enquiry Pro is one of WisdmLabs early plugins and a very successful "
+"one. With over  %s 800+ satisfied customers  %s we continue to improve PEP "
+"and give the best to our customers. We stand by our products and make sure "
+"we give our customers what they are looking for with great quality and even "
+"better features."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:320
+msgid "THIS IS WHERE WE NEED YOU! "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:322
+#, php-format
+msgid ""
+"We need you, the users of PEP to %s pitch in your ideas %s  for the plugin. "
+"Based on the number of interested users, we will incorporate the feature and "
+"make it available at a minimal cost. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:339
+msgid "Customize Your Enquiry Form "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:341
+msgid "Flexibility to create your own fields within the enquiry form. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:343
+#: product-enquiry-for-woocommerce.php:351
+#: product-enquiry-for-woocommerce.php:372
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:347
+msgid "Display Enquiry Button On Shop "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:349
+msgid ""
+"Allow visitors to enquire about your products directly from the shop page. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:355
+#: product-enquiry-for-woocommerce.php:384
+#: product-enquiry-for-woocommerce.php:404
+#: product-enquiry-for-woocommerce.php:424
+msgid "Confirm Email-id : "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:368
+msgid "Hide or Replace Add-to-Cart Button "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:370
+msgid ""
+"Replace the add-to-cart button with the enquiry button for your products. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:376
+msgid "Create a Custom Email Template "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:378
+msgid ""
+"Style and create templates for your enquiry emails from your dashboard. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:396
+msgid "Analytics For Your Enquiries "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:398
+msgid ""
+"Get detailed analytics for your enquiries based on products and other "
+"attributes. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:402
+#: product-enquiry-for-woocommerce.php:422
+msgid "Please confirm your feature request"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:416
+msgid "Newsletter Integration With PEP "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:418
+msgid "Get your newsletter plugin integrated seamlessly with PEP. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:466
+msgid "Get A Feature Developed in PEP "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:468
+msgid ""
+"Select a feature you want us to develop and leave us a note about it. We "
+"will get in touch with you and keep you posted on its progress. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:469
+msgid "Need a custom feature developed in PEP ? "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:470
+#: product-enquiry-for-woocommerce.php:481
+msgid "Contact Us "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:479
+msgid "Plugin Development and Customization "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:480
+msgid ""
+"Our area of expertise is WordPress plugins. We specialize in creating "
+"bespoke plugin solutions for your business needs. Our competence with plugin "
+"development and customization has been certified by WordPress biggies like "
+"WooThemes and Event Espresso. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:485
+msgid "Our Premium Plugins "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:488
+msgid "Customer Specific Pricing for WooCommerce "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:490
+msgid ""
+"This simple yet powerful plugin, allows you to set a different price for a "
+"WooCommerce product on a per customer basis. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:492
+#: product-enquiry-for-woocommerce.php:499
+#: product-enquiry-for-woocommerce.php:506
+#: product-enquiry-for-woocommerce.php:513
+#: product-enquiry-for-woocommerce.php:522
+#: product-enquiry-for-woocommerce.php:529
+#: product-enquiry-for-woocommerce.php:536
+msgid "Know more "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:495
+msgid "WooCommerce Custom Product Boxes "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:497
+msgid ""
+"This plugin allows customers, to select and create their own product "
+"bundles, which can be purchased as a single product! "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:502
+msgid "Instagram WooCommerce Integration "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:504
+msgid ""
+"A perfect solution, to create collages using Instagram images, right from "
+"your WooCommerce store. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:509
+msgid "WooCommerce Moodle Integration"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:511
+msgid ""
+"Want to sell Moodle Courses in your WooCommerce store? This plugin allows "
+"you to do the same and much more. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:518
+msgid "WooCommerce Scheduler"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:520
+msgid ""
+"With the WooCommerce Scheduler Plugin, you can manage product availability "
+"as per your business needs."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:525
+msgid "WooCommerce Bookings: Availability Search Widget"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:527
+msgid ""
+"An WooCommerce Bookings plugin extension, which allows customers to search "
+"for Available Bookings on requested dates."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:532
+msgid "Empty Cart Timer for WooCommerce"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:534
+msgid ""
+"Empty Cart Timer for WooCommerce deletes products from the cart after a "
+"certain predefined amount of expiration time. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:542
+msgid "Entire Array of Services "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:543
+msgid ""
+"We specialize in WordPress website development and customization with an "
+"entire range of services under our belt. We have expertise in domains such "
+"as eCommerce, LMS, Event Management System, etc. Explore our services now "
+"and cater to all your WordPress requirements under one roof. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:544
+msgid "View Our Services "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:553
+msgid "[Available in PRO]"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:566
+msgid "Emailing Information"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:569
+msgid " Recipient's Email "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:573
+msgid "You can add one reciepient email address"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:583
+msgid "Default Subject "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:587
+msgid "Subject to be used if customer leaves subject field blank"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:590
+msgid "Enquiry for a product from "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:592
+msgid " Will be used if the customer does not enter a subject"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:600
+msgid "Form Options"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:603
+msgid "Button-Text for enquiry button"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:607
+msgid "Add custom label for enquiry button"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:616
+msgid "Enquiry Button Location"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:620
+msgid " After add to cart button"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:624
+msgid " After single product summary "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:630
+msgid "At the end of single product page "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:638
+msgid "Enable sending an email copy"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:642
+msgid "This will display 'send me a copy' checkbox on enquiry form"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:647
+msgid " Enable option on the enquiry form to send an email copy to customer"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:669
+msgid "Display 'Telephone Number Field'"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:674
+msgid "Displays telephone number field on the enquiry form"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:686
+#: product-enquiry-for-woocommerce.php:691
+msgid "Show enquiry button only when product is out of stock"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:701
+msgid "Styling Options"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:705
+msgid "Custom Styling"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:710
+msgid "Use Activated Theme CSS"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:714
+msgid "Manually specify color settings"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:722
+msgid "Specify CSS Settings "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:727
+#: product-enquiry-for-woocommerce.php:740
+msgid ""
+" This feature is available in the PRO version. Click below to know more. "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:728
+#: product-enquiry-for-woocommerce.php:741
+msgid "View Details "
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:746
+msgid "Enable/Disable Add to Cart for all Products"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:752
+msgid "Enable/Disable PEP for all Products"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:758
+msgid "Redirect Page URL"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:845
+msgid "Product Enquiry from"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:846
+msgid "Product Name:"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:847
+msgid "Product URL:"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:848
+msgid "Customer Name:"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:849
+msgid "Customer Email:"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:850
+msgid "Message:"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:853
+#, php-format
+msgid "%s Upgrade to Pro %s"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:875
+msgid "Enquiry was sent succesfully"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:881
+msgid "Unfortunately, a server issue prevented delivery of your message."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:886
+msgid "Unauthorized access."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:949
+msgid "And Congrats! They have subscribed to your newsletter too!"
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:950
+msgid "We'll keep you updated with the latest developments."
+msgstr ""
+
+#: product-enquiry-for-woocommerce.php:960
+#, php-format
+msgid ""
+"Hi there,Thank you for requesting the %s feature for Product Enquiry for "
+"WooCommerce.We will keep you updated with the latest developments.Thanks and "
+"Regards,WisdmLabs"
+msgstr ""

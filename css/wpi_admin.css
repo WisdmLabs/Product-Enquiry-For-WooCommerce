@@ -1,0 +1,24 @@
+/*
+ * Settings page styles
+ */
+      #ask_abt_product_panel input[type="text"]
+      {
+        border-color: #AAAAAA;
+      }
+        
+      #ask_abt_product_panel input[type="text"]:focus
+      {
+        border-color: #5897FB;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      }
+      
+      #ask_abt_product_panel label
+      {
+        color: #111111;
+      }
+      
+      .wdm_wpi_text
+      {
+        width: 230px;
+      }
+      

@@ -1,0 +1,359 @@
+/* File: ./assets/admin/css/activation-popup.css */
+
+/* Overlay */
+#pefree-activation-popup-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.75);
+	backdrop-filter: blur(4px);
+	z-index: 100000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Modal Container */
+#pefree-activation-popup-modal {
+	background: #ffffff;
+	width: 100%;
+	max-height: 90vh;
+	overflow-y: auto;
+	border-radius: 16px;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+	position: relative;
+	animation: slideUp 0.4s ease-out;
+	transform: translateY(20px);
+	opacity: 0;
+}
+
+#pefree-activation-popup-modal.pefree-popup-active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(30px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* Close Button */
+.pefree-activation-popup-close {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	background: transparent;
+	border: 0;
+	font-size: 24px;
+	cursor: pointer;
+	color: #666;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+	z-index: 10;
+}
+
+.pefree-activation-popup-close:hover {
+	background: #f5f5f5;
+	color: #333;
+	transform: rotate(90deg);
+}
+
+/* Content */
+.pefree-activation-popup-content {
+	padding: 40px;
+}
+
+/* Header */
+.pefree-activation-popup-header {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.pefree-activation-popup-icon {
+	display: inline-block;
+	margin-bottom: 16px;
+	animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+	0%, 100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+}
+
+.pefree-activation-popup-header h2 {
+	margin: 0 0 12px 0;
+	color: #1a1a1a;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.pefree-activation-popup-subtitle {
+	margin: 0;
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Features Section */
+.pefree-activation-popup-features {
+	margin: 32px 0;
+}
+
+.pefree-activation-popup-features h3 {
+	margin: 0 0 20px 0;
+	color: #1a1a1a;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.pefree-features-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+	margin-top: 24px;
+}
+
+.pefree-feature-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 16px;
+	background: #f8f9fa;
+	border-radius: 12px;
+	border: 2px solid transparent;
+	transition: all 0.3s ease;
+}
+
+.pefree-feature-item:hover {
+	border-color: #961a1d;
+	background: #fff;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(150, 26, 29, 0.1);
+}
+
+.pefree-feature-icon {
+	font-size: 32px;
+	line-height: 1;
+	flex-shrink: 0;
+}
+
+.pefree-feature-text {
+	flex: 1;
+}
+
+.pefree-feature-text strong {
+	display: block;
+	color: #1a1a1a;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 4px;
+	line-height: 1.3;
+}
+
+.pefree-feature-text span {
+	display: block;
+	color: #666;
+	font-size: 13px;
+	line-height: 1.4;
+}
+
+/* Actions */
+.pefree-activation-popup-actions {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+	margin: 32px 0 24px 0;
+	flex-wrap: wrap;
+}
+
+.pefree-activation-btn-primary,
+.pefree-activation-btn-secondary {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 14px 32px;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	border: 2px solid transparent;
+	cursor: pointer;
+	min-width: 160px;
+}
+
+.pefree-activation-btn-primary {
+	background: linear-gradient(135deg, #961a1d 0%, #7a1518 100%);
+	color: #ffffff;
+	box-shadow: 0 4px 12px rgba(150, 26, 29, 0.3);
+}
+
+.pefree-activation-btn-primary:hover {
+	background: linear-gradient(135deg, #7a1518 0%, #961a1d 100%);
+	box-shadow: 0 6px 20px rgba(150, 26, 29, 0.4);
+	transform: translateY(-2px);
+	color: #ffffff;
+}
+
+.pefree-activation-btn-primary svg {
+	transition: transform 0.3s ease;
+}
+
+.pefree-activation-btn-primary:hover svg {
+	transform: translateX(4px);
+}
+
+.pefree-activation-btn-secondary {
+	background: #ffffff;
+	color: #961a1d;
+	border-color: #961a1d;
+}
+
+.pefree-activation-btn-secondary:hover {
+	background: #961a1d;
+	color: #ffffff;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(150, 26, 29, 0.2);
+}
+
+/* Footer */
+.pefree-activation-popup-footer {
+	margin-top: 24px;
+	padding-top: 24px;
+	border-top: 1px solid #e5e5e5;
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.pefree-activation-rating,
+.pefree-activation-customers {
+	font-size: 13px;
+	color: #666;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.pefree-activation-rating img {
+	width: 14px;
+	height: 14px;
+	margin-right: 2px;
+	vertical-align: middle;
+}
+
+.hp-cust-number {
+	color: #961a1d;
+	font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	#pefree-activation-popup-modal {
+		max-width: 95%;
+		margin: 10px;
+	}
+
+	.pefree-activation-popup-content {
+		padding: 24px;
+	}
+
+	.pefree-activation-popup-header h2 {
+		font-size: 24px;
+	}
+
+	.pefree-features-grid {
+		grid-template-columns: 1fr;
+		gap: 12px;
+	}
+
+	.pefree-activation-popup-actions {
+		flex-direction: column;
+	}
+
+	.pefree-activation-btn-primary,
+	.pefree-activation-btn-secondary {
+		width: 100%;
+	}
+
+	.pefree-activation-popup-footer {
+		flex-direction: column;
+		gap: 12px;
+		text-align: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.pefree-activation-popup-content {
+		padding: 20px;
+	}
+
+	.pefree-activation-popup-header h2 {
+		font-size: 20px;
+	}
+
+	.pefree-activation-popup-subtitle {
+		font-size: 14px;
+	}
+
+	.pefree-feature-item {
+		padding: 12px;
+	}
+
+	.pefree-feature-icon {
+		font-size: 24px;
+	}
+}
+
+/* Scrollbar Styling */
+#pefree-activation-popup-modal::-webkit-scrollbar {
+	width: 8px;
+}
+
+#pefree-activation-popup-modal::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	border-radius: 0 16px 16px 0;
+}
+
+#pefree-activation-popup-modal::-webkit-scrollbar-thumb {
+	background: #961a1d;
+	border-radius: 4px;
+}
+
+#pefree-activation-popup-modal::-webkit-scrollbar-thumb:hover {
+	background: #7a1518;
+}
+
