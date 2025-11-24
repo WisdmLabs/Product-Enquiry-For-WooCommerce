@@ -65,7 +65,7 @@ The latest version is ready for translation. All you need to do is create the **
 
 = Enhanced functions with Pro =
 
-To enhance and add more value to the existing functions, you should also check out the **Premium version - [WISDM Product Enquiry Pro](https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreewordpress&utm_medium=pefreewordpress&utm_campaign=pefreewordpress) for WooCommerce**. 
+To enhance and add more value to the existing functions, check out [WISDM Product Enquiry Pro](https://wisdmlabs.com/woocommerce-product-enquiry-pro/?utm_source=Wordpress&utm_medium=Page&utm_campaign=bfcm_2025#pricing) — now available at 70% OFF for Black Friday! Unlock Quote Requests, Multi-Product Enquiry & WhatsApp Integration. Code: WISDMBFCM | Ends Dec 5th.
 
 Using this, you can empower your customers to send a single quotation request for **multiple products** or inquire about **bulk** or **large ticket size orders**. You can also view and reply to all inquiries and quote requests right from your dashboard.
 
