@@ -52,8 +52,8 @@ class PE_Admin_Settings {
 	public function hooks() {
 		add_action( 'admin_init', array( $this, 'message_product_enquiry_pro' ) );
 		add_action( 'wp_ajax_pe_notice_dismiss', array( $this, 'pe_notice_dismissed' ) );
-		// Beacon Icon hook
-		add_action('product_enquiry_for_woocommerce_backend_page', array($this, 'add_beacon_helpscout_script'));
+		// Beacon Icon hook - use admin_footer to ensure script loads properly
+		add_action( 'admin_footer', array( $this, 'add_beacon_helpscout_script' ) );
 		add_action( 'admin_notices', array( $this, 'privacy_admin_notice' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_activation_popup' ), 999 );
 		add_filter( 'plugin_action_links_' . plugin_basename( WDM_PE_PLUGIN ), 'PE_Admin_Plugin_Links::plugin_action_links' );
@@ -65,85 +65,13 @@ class PE_Admin_Settings {
 	 * Callback to action hook 'quoteup_pep_backend_page'.
 	 */
 	public function add_beacon_helpscout_script () {
+		// Only show beacon on PE Free settings page
+		if ( ! isset( $_GET['page'] ) || 'product-enquiry-for-woocommerce' !== $_GET['page'] ) {
+			return;
+		}
 		?>
-		<script type="text/javascript">
-		// Beacon script with error handling and fallback
-		(function() {
-			var beaconLoaded = false;
-			var beaconTimeout;
-			
-			// Function to create fallback help button
-			function createFallbackHelp() {
-				if (document.getElementById('cpb-fallback-help')) return;
-				
-				var fallbackButton = document.createElement('div');
-				fallbackButton.id = 'cpb-fallback-help';
-				fallbackButton.style.position = 'fixed';
-				fallbackButton.style.bottom = '20px';
-				fallbackButton.style.right = '20px';
-				fallbackButton.style.width = '60px';
-				fallbackButton.style.height = '60px';
-				fallbackButton.style.background = 'linear-gradient(135deg,#0073aa,#005a87)';
-				fallbackButton.style.borderRadius = '50%';
-				fallbackButton.style.boxShadow = '0 4px 12px rgba(0,115,170,0.3)';
-				fallbackButton.style.cursor = 'pointer';
-				fallbackButton.style.display = 'flex';
-				fallbackButton.style.alignItems = 'center';
-				fallbackButton.style.justifyContent = 'center';
-				fallbackButton.style.zIndex = '999999';
-				fallbackButton.style.transition = 'all 0.3s ease';
-				fallbackButton.innerHTML = '<span style="color:white;font-size:24px;">❓</span>';
-				fallbackButton.onclick = function() {
-					window.open('https://wisdmlabs.com/support/', '_blank');
-				};
-				document.body.appendChild(fallbackButton);
-			}
-			
-			// Set timeout for Beacon loading
-			beaconTimeout = setTimeout(function() {
-				if (!beaconLoaded) {
-					console.log('Beacon failed to load, showing fallback help button');
-					createFallbackHelp();
-				}
-			}, 5000); // 5 second timeout
-			
-			// Original Beacon script with error handling
-			!function(e,t,n){
-				function a(){
-					var e=t.getElementsByTagName("script")[0],n=t.createElement("script");
-					n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net";
-					
-					// Add error handling for script loading
-					n.onerror = function() {
-						console.log('Beacon script failed to load');
-						clearTimeout(beaconTimeout);
-						createFallbackHelp();
-					};
-					
-					n.onload = function() {
-						beaconLoaded = true;
-						clearTimeout(beaconTimeout);
-					};
-					
-					e.parentNode.insertBefore(n,e);
-				}
-				
-				if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();
-				e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1);
-			}(window,document,window.Beacon||function(){});
-			
-			// Initialize Beacon with error handling
-			try {
-				window.Beacon('init', '68aa275a-3f55-4448-822b-c492c802d3f7');
-				beaconLoaded = true;
-				clearTimeout(beaconTimeout);
-			} catch (error) {
-				console.log('Beacon initialization failed:', error);
-				clearTimeout(beaconTimeout);
-				createFallbackHelp();
-			}
-		})();
-		</script>
+		<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+		<script type="text/javascript">window.Beacon('init', 'fea56c43-0d44-4a4e-9715-1b1f20d6dcdf')</script>
 		<?php
 	}
 
