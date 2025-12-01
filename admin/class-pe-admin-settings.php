@@ -61,14 +61,39 @@ class PE_Admin_Settings {
 	}
 	
 	/**
-	 * Add the Helpscout Beacon script on the PEP backend pages.
-	 * Callback to action hook 'quoteup_pep_backend_page'.
+	 * Add the Helpscout Beacon script on the PE Free settings page only.
+	 * Only displays on the settings page, not on any other admin pages or frontend.
 	 */
 	public function add_beacon_helpscout_script () {
-		// Only show beacon on PE Free settings page
-		if ( ! isset( $_GET['page'] ) || 'product-enquiry-for-woocommerce' !== $_GET['page'] ) {
+		// Ensure we're in admin area
+		if ( ! is_admin() ) {
 			return;
 		}
+		
+		// Get current screen
+		$screen = get_current_screen();
+		if ( ! $screen ) {
+			return;
+		}
+		
+		// Only show beacon on PE Free settings page
+		// Check both page parameter and screen ID for extra security
+		$is_settings_page = false;
+		if ( isset( $_GET['page'] ) && 'product-enquiry-for-woocommerce' === $_GET['page'] ) {
+			$is_settings_page = true;
+		}
+		
+		// Verify screen ID matches settings page
+		if ( $is_settings_page && 'toplevel_page_product-enquiry-for-woocommerce' !== $screen->id ) {
+			// Double check - if screen ID doesn't match, don't show
+			return;
+		}
+		
+		// Final check - only proceed if we're on the settings page
+		if ( ! $is_settings_page ) {
+			return;
+		}
+		
 		?>
 		<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
 		<script type="text/javascript">window.Beacon('init', 'fea56c43-0d44-4a4e-9715-1b1f20d6dcdf')</script>
