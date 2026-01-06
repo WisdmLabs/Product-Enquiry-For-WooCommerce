@@ -1,13 +1,13 @@
 === Product Enquiry for WooCommerce ===
-Current Version: 3.2.5.1
+Current Version: 3.2.5.2
 Contributors: WisdmLabs
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info%40wisdmlabs%2ecom&lc=US&item_name=WisdmLabs%20Plugin%20Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
 Tags: woocommerce inquiry, woocommerce enquiry, request a quote woocommerce, product enquiry for woocommerce, product inquiry for woocommerce
 Requires at least: 5.3
-Tested up to: 6.8.3
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 3.2.5.1
-WooCommerce Version: 10.3.5
+Stable tag: 3.2.5.2
+WooCommerce Version: 10.4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,6 +89,18 @@ Pro Review:
 
 
 <<[Check all Features & Pricing](https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreewordpress&utm_medium=pefreewordpress&utm_campaign=pefreewordpress)>> | <<[View Demo](https://quoteup.wisdmlabs.com/?utm_source=PEfreelandingpage&utm_medium=PEfreelandingpage&utm_campaign=PEfreelandingpage)>>
+
+
+= Boost Enquiries with AI BotKit =
+
+Looking to automate enquiry responses and boost conversions?
+
+Try **AI BotKit**, a free AI chatbot that connects with your WordPress site to:
+Instantly answer customer questions
+Capture and qualify leads 24x7
+Work seamlessly with WooCommerce
+
+👉 [Get Free AI Chatbot](https://aibotkit.io/ai-chatbot-for-wordpress/?utm_source=Product+Enquiry+for+WooCommerce&utm_medium=read+me&utm_campaign=Product+Enquiry+for+WooCommerce+inside+plugin&utm_id=Wordpress)
 
 
 **Recommended Plugins:** [WISDM Customer Specific Pricing](https://wisdmlabs.com/woocommerce-user-specific-pricing-extension/?utm_source=PEfreelandingpage&utm_medium=PEfreelandingpage&utm_campaign=PEfreelandingpage), [WISDM Product Catalog Manager(Free)](https://wisdmlabs.com/woocommerce-catalog-mode/?utm_source=PEfreelandingpage&utm_medium=PEfreelandingpage&utm_campaign=PEfreelandingpage)

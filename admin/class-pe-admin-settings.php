@@ -36,6 +36,11 @@ class PE_Admin_Settings {
 	public function __construct() {
 		$this->hooks();
 		PE_Admin_Settings_Products::instance();
+		// Initialize AI BotKit banner (can be removed by deleting the file).
+		if ( file_exists( WDM_PE_PLUGIN_PATH . '/admin/class-pe-admin-ai-botkit-banner.php' ) ) {
+			include_once WDM_PE_PLUGIN_PATH . '/admin/class-pe-admin-ai-botkit-banner.php';
+			PE_Admin_AI_BotKit_Banner::instance();
+		}
 	}
 	/**
 	 * Ensures only one instance of class is loaded or can be loaded.
