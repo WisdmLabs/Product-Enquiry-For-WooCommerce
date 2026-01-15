@@ -149,6 +149,10 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 
 == Changelog ==
 
+= 3.2.5.2 =
+* Fix:      Added the URL of AIBotKit for the free assistant. 
+* Tweak:    Compatibility with WooCommerce 10.4.3 ensured.
+
 = 3.2.5.1 =
 * Fix:      Added support for the Beacon code to handle customer queries, available only in the backend settings of PE Free.
 * Tweak:    Compatibility with WooCommerce 10.3.5 ensured.
