@@ -1,127 +1,143 @@
 <?php
-/*
-Enqueue PhotoSwipe script and styles
-*/
-function enqueue_photoswipe() {
-    wp_enqueue_script('photoswipe', 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.6/photoswipe.min.js', array(), '5.3.6', true);
-    wp_enqueue_script('photoswipe-ui', 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.6/photoswipe-ui-default.min.js', array('photoswipe'), '5.3.6', true);
-    wp_enqueue_style('photoswipe-css', 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.6/photoswipe.min.css', array(), '5.3.6');
-    wp_enqueue_style('photoswipe-default-skin', 'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.3.6/default-skin/default-skin.min.css', array(), '5.3.6');
-    // wp_enqueue_style('custom-photoswipe-css', plugins_url('custom-photoswipe.css', __FILE__));
+/**
+ * PhotoSwipe Integration for WooCommerce Product Gallery
+ *
+ * @package PEFree
+ */
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
-add_action('wp_enqueue_scripts', 'enqueue_photoswipe');
 
-/*
-Initialize PhotoSwipe for WooCommerce product gallery images
-*/
-function initialize_photoswipe() {
-    ?>
-    <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            var pswpElement = document.querySelectorAll('.pswp')[0];
+/**
+ * Add PhotoSwipe CSS fixes to head
+ */
+function pefree_add_photoswipe_fixes() {
+	if ( ! is_product() ) {
+		return;
+	}
+	?>
+	<style type="text/css">
+		/* Show WooCommerce PhotoSwipe default UI with better styling */
+		.pswp__top-bar {
+			display: flex !important;
+			align-items: center;
+			padding: 0 15px;
+			background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent) !important;
+			height: 60px;
+		}
 
-            // Build items array
-            var items = [];
-            $('.woocommerce-product-gallery__image a').each(function() {
-                var $link = $(this);
-                var size = $link.data('size');
+		/* Right side buttons container with equal spacing */
+		.pswp__top-bar .pswp__button--zoom,
+		.pswp__top-bar .pswp__button--fs,
+		.pswp__top-bar .pswp__button--close {
+			position: relative !important;
+			float: none !important;
+			margin: 0 6px !important;
+		}
 
-                if (size) {
-                    var sizeParts = size.split('x');
-                    if (sizeParts.length === 2) {
-                        var item = {
-                            src: $link.attr('href'),
-                            w: parseInt(sizeParts[0], 10),
-                            h: parseInt(sizeParts[1], 10),
-                            title: $link.attr('title') || ''
-                        };
-                        items.push(item);
-                    } else {
-                        console.warn('Invalid data-size format for:', $link.attr('href'));
-                    }
-                } else {
-                    console.log('Missing data-size attribute for:', $link.attr('href'));
-                }
-            });
+		.pswp__top-bar .pswp__button--zoom {
+			margin-left: 0 !important;
+		}
+		.pswp__top-bar .pswp__button--close {
+			margin-right: 0 !important;
+		}
 
-            // Bind click event to gallery links
-            $('.woocommerce-product-gallery__image a').on('click', function(event) {
-                event.preventDefault();
+		/* Style the counter */
+		.pswp__counter {
+			color: #ffffff !important;
+			font-size: 15px !important;
+			font-weight: 500 !important;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+			position: static !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			opacity: 1 !important;
+			min-width: auto !important;
+		}
 
-                var index = $('.woocommerce-product-gallery__image a').index(this);
+		/* Hide share button */
+		.pswp__button--share {
+			display: none !important;
+		}
 
-                // Define PhotoSwipe options
-                var options = {
-                    index: index,
-                    bgOpacity: 0.7,
-                    showHideOpacity: true
-                };
+		/* Style all buttons */
+		.pswp__button {
+			opacity: 0.9 !important;
+		}
 
-                // Initialize PhotoSwipe
-                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-                gallery.init();
-            });
-        });
-    </script>
-    <?php
+		.pswp__button:hover {
+			opacity: 1 !important;
+		}
+
+
+		/* Hide preloader */
+		.pswp__preloader {
+			display: none !important;
+		}
+
+		/* Style arrows */
+		.pswp__button--arrow--left,
+		.pswp__button--arrow--right {
+			opacity: 0.9 !important;
+		}
+
+		.pswp__button--arrow--left:hover,
+		.pswp__button--arrow--right:hover {
+			opacity: 1 !important;
+		}
+
+		/* Image container - center the image */
+		.pswp__item {
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			width: 100% !important;
+			height: 100% !important;
+		}
+
+		.pswp__img {
+			max-width: calc(100vw - 140px) !important;
+			max-height: 85vh !important;
+			width: auto !important;
+			height: auto !important;
+			object-fit: contain !important;
+		}
+
+		.pswp__zoom-wrap {
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+		}
+
+		.pswp {
+			z-index: 999999 !important;
+		}
+
+		/* Caption styling */
+		.pswp__caption {
+			background: linear-gradient(to top, rgba(0,0,0,0.5), transparent) !important;
+		}
+
+		.pswp__caption__center {
+			color: #ffffff;
+			font-size: 14px;
+			padding: 15px;
+		}
+	</style>
+	<?php
 }
-add_action('wp_footer', 'initialize_photoswipe', 20);
+add_action( 'wp_head', 'pefree_add_photoswipe_fixes', 100 );
 
-/*
-Add PhotoSwipe markup to the footer
-*/
-function add_photoswipe_markup() {
-    ?>
-    <!-- PhotoSwipe -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div>
-                    <button class="pswp__button pswp__button--close pe_pswp_close" title="Close (Esc)" style="position: absolute;height: 2em;"></button>
-                    <button class="pswp__button pswp__button--share pe_pswp_share" title="Share"></button>
-                    <button class="pswp__button pswp__button--fs pe_pswp_fs" title="Toggle fullscreen" style="position: absolute;height: 2em;right: 6em;"></button>
-                    <button class="pswp__button pswp__button--zoom pe_pswp_zoom" title="Zoom in/out" style="position: absolute;height: 2em;right: 3em;"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div>
-                <button class="pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                <button class="pswp__button--arrow--right" title="Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <?php
+/**
+ * Add data attributes to WooCommerce product gallery images
+ */
+function pefree_add_data_size_to_product_gallery( $content, $attachment_id ) {
+	$image = wp_get_attachment_image_src( $attachment_id, 'full' );
+	if ( $image ) {
+		$content = str_replace( '<a ', '<a data-large_image_width="' . esc_attr( $image[1] ) . '" data-large_image_height="' . esc_attr( $image[2] ) . '" ', $content );
+	}
+	return $content;
 }
-add_action('wp_footer', 'add_photoswipe_markup');
-
-/*
-Add data-size attribute to WooCommerce product gallery images
-*/
-function add_data_size_to_product_gallery( $content, $attachment_id ) {
-    $image = wp_get_attachment_image_src( $attachment_id, 'full' );
-    if ($image) {
-        // Ensure we only modify anchor tags
-        if (strpos($content, '<a ') !== false) {
-            $content = str_replace('<a ', '<a data-size="' . $image[1] . 'x' . $image[2] . '" ', $content);
-        }
-    }
-    return $content;
-}
-add_filter('woocommerce_single_product_image_thumbnail_html', 'add_data_size_to_product_gallery', 10, 2);
+add_filter( 'woocommerce_single_product_image_thumbnail_html', 'pefree_add_data_size_to_product_gallery', 10, 2 );
