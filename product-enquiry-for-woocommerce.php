@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Product Enquiry for WooCommerce
  * Description: Allows prospective customers or visitors to make enquiry about a product, right from within the product page.
- * Version: 3.2.5.2
+ * Version: 3.2.5.3
  * Author: WisdmLabs
  * Author URI: https://wisdmlabs.com
  * Plugin URI: https://wordpress.org/plugins/product-enquiry-for-woocommerce
@@ -10,9 +10,9 @@
  * Text Domain: product-enquiry-for-woocommerce
  * Domain Path: /languages/
  * WP requires at least: 5.3
- * WP tested up to: 6.9
+ * WP tested up to: 7.0
  * WC requires at least: 4.0
- * WC tested up to: 10.4.3
+ * WC tested up to: 10.8.1
  *
  * @package  PEFree
  */
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'PEFREE_VERSION', '3.2.5.2' );
+define( 'PEFREE_VERSION', '3.2.5.3' );
 define( 'WDM_PE_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WDM_PE_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 define( 'WDM_PE_PLUGIN', __FILE__ );
