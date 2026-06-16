@@ -211,9 +211,12 @@ class PE_Admin_Settings {
 		}
 		
 		// On PE settings page, always show if transient is set (recently activated)
-		// Otherwise, check if dismissed
-		$dismissed = get_option( 'wdm_pefree_activation_banner_dismissed', false );
-		if ( $dismissed && ! $show_popup && ! $manual_trigger && ! $recently_activated ) {
+		// Otherwise, check if dismissed after current activation
+		$dismissed_time  = (int) get_option( 'wdm_pefree_activation_banner_dismissed', 0 );
+		$activation_time = (int) get_option( 'wdm_pefree_activation_time', 0 );
+
+		// If dismissed after activation, don't show (unless manual trigger)
+		if ( $dismissed_time && $dismissed_time >= $activation_time && ! $manual_trigger ) {
 			return;
 		}
 		
@@ -285,7 +288,7 @@ class PE_Admin_Settings {
 			if ( 'wdm_privacy_notice_dismissed' === $notice_id ) {
 				update_option( 'wdm_privacy_notice_dismissed', 1 );
 			} elseif ( 'wdm_pefree_activation_banner_dismissed' === $notice_id ) {
-				update_option( 'wdm_pefree_activation_banner_dismissed', 1 );
+				update_option( 'wdm_pefree_activation_banner_dismissed', current_time( 'timestamp' ) );
 				delete_transient( 'wdm_pefree_show_activation_banner' );
 			}
 		}

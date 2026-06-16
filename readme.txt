@@ -146,11 +146,23 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 6. Request a quote for specific products
 7. Make an inquiry before the purchase
 8. Form to submit the inquiry
+9. AI ChatBot button in Archive Page 
+10. AI ChatBot button in Single Product Page.
+11. Settings of AI ChatBot.
+12. AI ChatBot Quote Assistant popup.
 
 == Changelog ==
 
 = 3.2.5.3 =
+* Feature:  Added new 'AI Product Enquiry Assistant' tab in admin settings.
+* Feature:  Integrated PhotoSwipe v5.4.4 with local assets for product gallery.
+* Fix:      Fixed dismissal logic for activation popup and AI banner to show again after plugin reactivation.
+* Fix:      Added ABSPATH checks to all PHP files for security.
+* Fix:      Fixed all PHPCS warnings and errors for WordPress.org compliance.
+* Fix:      Added proper sanitization and nonce verification throughout.
 * Fix:      Fixed PhotoSwipe lightbox UI - counter, zoom, fullscreen, and close buttons now display with equal spacing.
+* Tweak:    Updated AI BotKit banner with new design.
+* Tweak:    Compatibility with WordPress 7.0 ensured.
 
 = 3.2.5.2 =
 * Fix:      Added the URL of AIBotKit for the free assistant. 

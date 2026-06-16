@@ -58,7 +58,7 @@ class PE_Admin_Settings_Products {
 		?>
 		<div class="wrap wdm_leftwrap">
 			<?php
-			if ( isset( $_POST['save_settings_nonce'] ) && wp_verify_nonce( sanitize_text_field( $_POST['save_settings_nonce'] ), 'wdm-wpi-validation-nonce' ) && isset( $_GET['tab'] ) ) {
+			if ( isset( $_GET['tab'] ) ) {
 				$active_tab = sanitize_text_field( $_GET['tab'] );
 			} else {
 				$active_tab = 'form';
@@ -68,6 +68,10 @@ class PE_Admin_Settings_Products {
 				'form'             => array(
 					'title' => __( 'Enquiry Settings', 'product-enquiry-for-woocommerce' ),
 					'class' => 'enquiry-settings-tab',
+				),
+				'ai_assistant'     => array(
+					'title' => __( 'AI Product Enquiry Assistant', 'product-enquiry-for-woocommerce' ),
+					'class' => 'ai-assistant-tab',
 				),
 				'quotation'        => array(
 					'title' => __( 'Quotation', 'product-enquiry-for-woocommerce' ),
@@ -133,6 +137,8 @@ class PE_Admin_Settings_Products {
 				render_pro_banner();
 				$form_tab = PE_Admin_Settings_Quotation_Tab::instance();
 				$form_tab->quotation_tab_functionality_helper();
+			} elseif ( 'ai_assistant' === $active_tab ) {
+				require WDM_PE_PLUGIN_PATH . 'templates/ai-assistant-tab.php';
 			}
 			do_action( 'product_enquiry_tab_content', $active_tab );
 			?>
