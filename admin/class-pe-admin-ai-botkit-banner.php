@@ -223,11 +223,11 @@ class PE_Admin_AI_BotKit_Banner {
 					success: function(response) {
 						if (response.success) {
 							if (action === 'install') {
-								$button.text('Activate').data('action', 'activate').removeClass('processing');
-								alert('<?php echo esc_js( __( 'Plugin installed successfully! Click Activate to enable it.', 'product-enquiry-for-woocommerce' ) ); ?>');
+								alert('<?php echo esc_js( __( 'Plugin installed successfully!', 'product-enquiry-for-woocommerce' ) ); ?>');
+								location.reload();
 							} else {
-								$button.replaceWith('<span class="mmrm-ai-banner-btn-primary" style="opacity: 0.7; cursor: default;"><span class="mmrm-ai-banner-btn-icon">✓</span><?php echo esc_js( __( 'Installed', 'product-enquiry-for-woocommerce' ) ); ?></span>');
 								alert('<?php echo esc_js( __( 'Plugin activated successfully!', 'product-enquiry-for-woocommerce' ) ); ?>');
+								location.reload();
 							}
 						} else {
 							alert(response.data.message || '<?php echo esc_js( __( 'Installation failed. Please try again.', 'product-enquiry-for-woocommerce' ) ); ?>');
