@@ -4,6 +4,7 @@
  *
  *  @package  PEFree/template
  */
+defined( 'ABSPATH' ) || exit;
 
 ?>
 

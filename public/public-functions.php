@@ -5,6 +5,7 @@
  * @package  PEFree/public
  * @version  3.0.0
  */
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Get terms and condotions.

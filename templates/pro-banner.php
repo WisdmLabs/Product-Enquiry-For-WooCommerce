@@ -1,4 +1,6 @@
 <?php
+defined( 'ABSPATH' ) || exit;
+
 $img = WDM_PE_PLUGIN_URL . 'assets/admin/img/star.png';
 /* translators: %1$s:html*/
 $rating_text = sprintf( __( 'Rated %s4.8', 'product-enquiry-for-woocommerce' ), '<img src=' . esc_attr( $img ) . ' />' );

@@ -4,6 +4,7 @@
  *
  * @package  PEFree/admin
  */
+defined( 'ABSPATH' ) || exit;
 
 ?>
 <div id="wdm-subme-form" class=""> 

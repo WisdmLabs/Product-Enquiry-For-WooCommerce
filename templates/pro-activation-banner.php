@@ -6,6 +6,7 @@
  *
  * @package PEFree/template
  */
+defined( 'ABSPATH' ) || exit;
 
 $img = WDM_PE_PLUGIN_URL . 'assets/admin/img/star.png';
 /* translators: %1$s:html*/

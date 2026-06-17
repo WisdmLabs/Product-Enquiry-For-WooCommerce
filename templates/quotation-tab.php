@@ -4,6 +4,7 @@
  *
  *  @package  PEFree/template
  */
+defined( 'ABSPATH' ) || exit;
 
 ?>
 <form name="ask_product_form" id="ask_product_form" method="POST" action="options.php">

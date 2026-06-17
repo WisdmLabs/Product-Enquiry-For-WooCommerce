@@ -5,6 +5,7 @@
  * @package  PEFree
  * @version  3.0.0
  */
+defined( 'ABSPATH' ) || exit;
 
 if ( ! defined( 'WDM_PE_PLUGIN_PATH' ) ) {
 	exit;
@@ -39,7 +40,7 @@ class PE_Admin_Newsletter_Subcribe {
 	 * Ajaxcallback.
 	 */
 	public function send_newsletter_mail() {
-		if ( isset( $_POST['wdm_pe_subscriber'] ) && wp_verify_nonce( sanitize_text_field( $_POST['wdm_pe_subscriber'] ), 'wdm_pe_subscriber' ) ) {
+		if ( isset( $_POST['wdm_pe_subscriber'] ) && wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['wdm_pe_subscriber'] ) ), 'wdm_pe_subscriber' ) ) {
 			global $wpdb; // this is how you get access to the database.
 			$email                     = isset( $_POST['email'] ) ? sanitize_email( wp_unslash( $_POST['email'] ) ) : '';
 			$id                        = isset( $_POST['id'] ) ? (int) $_POST['id'] : '';

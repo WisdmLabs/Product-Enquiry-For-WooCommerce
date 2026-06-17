@@ -59,7 +59,7 @@ class PE_Admin_Settings_Products {
 		<div class="wrap wdm_leftwrap">
 			<?php
 			if ( isset( $_GET['tab'] ) ) {
-				$active_tab = sanitize_text_field( $_GET['tab'] );
+				$active_tab = sanitize_text_field( wp_unslash( $_GET['tab'] ) );
 			} else {
 				$active_tab = 'form';
 			}

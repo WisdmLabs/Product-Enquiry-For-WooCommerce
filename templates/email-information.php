@@ -4,6 +4,7 @@
  *
  *  @package  PEFree/template
  */
+defined( 'ABSPATH' ) || exit;
 
 $form_data = Product_Enquiry_For_Woocommerce::pe_settings();
 

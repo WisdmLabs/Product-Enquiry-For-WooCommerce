@@ -4,6 +4,7 @@
  *
  * @package PEFREE/Menu
  */
+defined( 'ABSPATH' ) || exit;
 
 ?>
 <section id="content">

@@ -5,6 +5,7 @@
  * @package  PEFree/pluginLinks
  * @version  3.0.0
  */
+defined( 'ABSPATH' ) || exit;
 
 if ( ! class_exists( 'PE_Admin_Plugin_Links' ) ) {
 

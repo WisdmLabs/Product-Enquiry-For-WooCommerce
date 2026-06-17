@@ -5,6 +5,7 @@
  * @package  PEFree/admin
  * @version  3.0.0
  */
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Render_meta_box_markup_email_information display metabox content

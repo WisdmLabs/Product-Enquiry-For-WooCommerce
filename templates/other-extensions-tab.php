@@ -5,6 +5,7 @@
  * @package  PEFree/settings-tabs
  * @version  3.0.0
  */
+defined( 'ABSPATH' ) || exit;
 
 ?>
 <div class="wdm-tab-container">

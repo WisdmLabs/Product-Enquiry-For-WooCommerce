@@ -4,6 +4,7 @@
  *
  * @package PEFREE/Menu
  */
+defined( 'ABSPATH' ) || exit;
 
 global $is_product;
 if ( $is_product ) {
