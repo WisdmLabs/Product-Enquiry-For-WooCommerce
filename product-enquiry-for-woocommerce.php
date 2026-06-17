@@ -76,9 +76,7 @@ function wdm_pefree_init() {
 	if ( ! class_exists( 'Product_Enquiry_For_Woocommerce', false ) ) {
 		include_once WDM_PE_PLUGIN_PATH . '/includes/class-product-enquiry-for-woocommerce.php';
 
-		// Integrating with PhotoSwip
-		include_once WDM_PE_PLUGIN_PATH . '/templates/enq-photoswipe-zoom.php';
-	}
+		}
 	Product_Enquiry_For_Woocommerce::instance();
 }
 

@@ -17,11 +17,9 @@ $pew_install_url       = admin_url( 'plugin-install.php?s=ai-botkit-for-lead-gen
 	<ul class="pefree-extensions-list">
 		<li class="pefree-extension-item featured">
 			<div class="pefree-extension-image">
-				<a href="<?php echo esc_url( $pew_ai_assistant_link ); ?>" target="_blank" rel="noopener noreferrer">
-					<div class="pefree-extension-banner">
-						<span class="pefree-banner-text">AI BotKit for Lead Generation</span>
-					</div>
-				</a>
+				<div class="pefree-extension-banner">
+					<span class="pefree-banner-text">AI BotKit for Lead Generation</span>
+				</div>
 			</div>
 			<div class="pefree-extension-info">
 				<div class="pefree-extension-header">
