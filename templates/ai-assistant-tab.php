@@ -17,9 +17,11 @@ $pew_install_url       = admin_url( 'plugin-install.php?s=ai-botkit-for-lead-gen
 	<ul class="pefree-extensions-list">
 		<li class="pefree-extension-item featured">
 			<div class="pefree-extension-image">
-				<div class="pefree-extension-banner">
-					<span class="pefree-banner-text">AI BotKit for Lead Generation</span>
-				</div>
+				<img
+					src="<?php echo esc_url( WDM_PE_PLUGIN_URL . 'assets/admin/img/ai-quote-assistant.png' ); ?>"
+					alt="<?php esc_attr_e( 'AI BotKit for Lead Generation', 'product-enquiry-for-woocommerce' ); ?>"
+					class="pefree-extension-preview-image"
+				/>
 			</div>
 			<div class="pefree-extension-info">
 				<div class="pefree-extension-header">
@@ -94,31 +96,16 @@ $pew_install_url       = admin_url( 'plugin-install.php?s=ai-botkit-for-lead-gen
 	max-width: 400px;
 }
 
-.pefree-extension-image a {
+.pefree-extension-preview-image {
 	display: block;
-}
-
-.pefree-extension-banner {
 	width: 100%;
-	height: 250px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: linear-gradient(135deg, #1a5c45 0%, #2d7a5f 100%);
+	height: auto;
 	border-radius: 4px;
 	transition: transform 0.3s ease;
 }
 
-.pefree-extension-image a:hover .pefree-extension-banner {
+.pefree-extension-image:hover .pefree-extension-preview-image {
 	transform: scale(1.02);
-}
-
-.pefree-banner-text {
-	color: #fff;
-	font-size: 24px;
-	font-weight: 600;
-	text-align: center;
-	padding: 20px;
 }
 
 .pefree-extension-info {
