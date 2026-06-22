@@ -215,25 +215,21 @@ function pew_create_wisdm_sidebar( $plugin_name, $wdm_plugin_slug ) {
 		add_filter( 'wp_mail_content_type', 'pew_cde_set_contenttype' );
 
 		if ( wp_mail( $pew_to, $pew_subject, $pew_message, '', '' ) ) {
-			?
-			<script type="text/javascript">
+			echo '<script type="text/javascript">
 				jQuery(document).ready(
 					function() {
-						apprise("Thank you for your enquiry. We'll get back to you soon. <br /><br /> <div class='wdm_cheers' style='float:left;'> Cheers! <br /> WisdmLabs Team </div>");
+						apprise("Thank you for your enquiry. We\'ll get back to you soon. <br /><br /> <div class=\'wdm_cheers\' style=\'float:left;\'> Cheers! <br /> WisdmLabs Team </div>");
 					}
 				);
-			</script>
-			<?php
+			</script>';
 		} else {
-			?
-			<script type="text/javascript">
+			echo '<script type="text/javascript">
 				jQuery(document).ready(
 					function() {
 						apprise("Sorry, Your enquiry could not be sent.");
 					}
 				);
-			</script>
-			<?php
+			</script>';
 		}
 		remove_filter( 'wp_mail_from', 'pew_wdm_mail_from' );
 		remove_filter( 'wp_mail_from_name', 'pew_wdm_mail_from_name' );
