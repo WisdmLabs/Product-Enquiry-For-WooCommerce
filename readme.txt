@@ -1,8 +1,8 @@
-=== Product Enquiry for WooCommerce ===
+=== Product Enquiry for WooCommerce (Now with AI Assistant) ===
 Current Version: 3.2.5.3
 Contributors: WisdmLabs
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info%40wisdmlabs%2ecom&lc=US&item_name=WisdmLabs%20Plugin%20Donation&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest
-Tags: woocommerce inquiry, woocommerce enquiry, request a quote woocommerce, product enquiry for woocommerce, product inquiry for woocommerce
+Tags: product enquiry for woocommerce, product inquiry for woocommerce, request a quote woocommerce, woocommerce enquiry, woocommerce inquiry
 Requires at least: 5.3
 Tested up to: 7.0
 Requires PHP: 5.6
@@ -11,104 +11,95 @@ WooCommerce Version: 10.8.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Product Enquiry allows prospective customers to "Make an Enquiry" about a product, or "Request a Quote" right from within the product page.
+Add a "Make an Enquiry" or "Request a Quote" button on product pages. Now with a free AI assistant that answers customer questions 24x7.
 
 == Description ==
 
-Missing out on **pre-sale inquiries**? WISDM Product Enquiry for WooCommerce is the perfect plugin for you.
+Missing out on **pre-sale inquiries**? WISDM Product Enquiry for WooCommerce is the perfect plugin for you. And now, it comes with a **free AI assistant** that answers customer questions even when you are offline.
 
-Potential customers have questions about products they want to purchase. WISDM Product Enquiry for WooCommerce lets you add an '**Inquiry**' or '**Request a Quote**' button on every product page. 
+Potential customers have questions about products they want to purchase. WISDM Product Enquiry for WooCommerce lets you add an '**Inquiry**' or '**Request a Quote**' button on every product page. With the bundled **AI BotKit** assistant, common questions get answered instantly, and serious buyers reach your inbox as qualified leads.
 
 Interested buyers can use this option to send across doubts or quote requests. You can:
 - Connect with **genuine leads**
 - Address **customer's exact concerns** and queries
+- Answer routine questions **automatically with AI**, 24x7
 - Get good insights into your **customers' demands**
 - **Negotiate** purchase quotations
 - And quickly **convert** unsure customers into buyers!
 
+= NEW: Free AI Assistant Powered by AI BotKit =
+
+Every enquiry starts as a question. Now you don't have to answer all of them yourself.
+
+Product Enquiry for WooCommerce comes with **AI BotKit**, a free AI chatbot that connects to your WordPress site and:
+- **Instantly answers** customer questions using your site's own content
+- **Captures and qualifies leads 24x7**, even outside business hours
+- Works **seamlessly with WooCommerce** products, pages, and posts
+- Hands off complex questions to your **enquiry form**, so no lead is lost
+
+The result: fewer repetitive emails in your inbox, faster answers for your customers, and more pre-sale inquiries converted into orders.
+
+👉 [Get the Free AI Chatbot](https://aibotkit.io/ai-chatbot-for-wordpress/?utm_source=Product+Enquiry+for+WooCommerce&utm_medium=read+me&utm_campaign=Product+Enquiry+for+WooCommerce+inside+plugin&utm_id=Wordpress)
 
 = Capture Pre-sale Inquiries =
 
-You can place the 'Inquiry' or 'Request a Quote' button on your products page and allow visitors to make pre-sale Inquiries or negotiate for a list of products they're interested in. In doing so, you'll be able to **capture genuine leads** and convert them into buyers sooner than expected. 
+You can place the 'Inquiry' or 'Request a Quote' button on your products page and allow visitors to make pre-sale Inquiries or negotiate for a list of products they're interested in. In doing so, you'll be able to **capture genuine leads** and convert them into buyers sooner than expected.
 
 = Easily Customize Link or Button =
 
 You have full freedom to customize or label the button or link text as "Make an Inquiry", "Request a Quote", or "Quote to Order", etc. to suit your convenience. This will make it easier for your customers to immediately understand and **perform an action**.
 
-
 = Collect Inquiries on Product Variations =
 
 You can use this option to allow interested customers to Inquire or Request Quotation for **simple products** or **variations of a product**. The quicker you address their problems, the quicker the sale happens!
 
-
 = Effortlessly Configure Settings =
 
-As a plugin user/administrator, you have the freedom to configure **where to show the Enquiry or Request a Quote button** on the product page, an option to **style the buttons**, and many other details too. (check out the screenshot 'Plugin configuration' for more details). 
-
+As a plugin user/administrator, you have the freedom to configure **where to show the Enquiry or Request a Quote button** on the product page, an option to **style the buttons**, and many other details too. (check out the screenshot 'Plugin configuration' for more details).
 
 = Receive Inquiries/Quotations via Email =
 
-Delegate responsibilities to the team by adding **multiple recipient email ids** for incoming product inquiries or quotations. An email with details such as site name, product name, product URL, customer name, and inquiry message is sent in a well-formatted manner. 
+Delegate responsibilities to the team by adding **multiple recipient email ids** for incoming product inquiries or quotations. An email with details such as site name, product name, product URL, customer name, and inquiry message is sent in a well-formatted manner.
 
 Moreover, you can also configure the setting to help customers keep a tab on their Quotations by allowing them the option to send a "**copy of email**" to themselves.
-
 
 = Get Quick Support =
 
 It also gives you access to request a support query, make an inquiry for custom development, know additional services provided by us, etc. through a **support sidebar** right from the plugin settings page.
 
-
 = Support Local Languages =
 
 The latest version is ready for translation. All you need to do is create the **.mo and .po files** for your language.
 
-
 = Enhanced functions with Pro =
 
-To enhance and add more value to the existing functions, check out [WISDM Product Enquiry Pro](https://wisdmlabs.com/woocommerce-product-enquiry-pro/?utm_source=Wordpress&utm_medium=Page&utm_campaign=bfcm_2025#pricing) — now available at **70% OFF** for **Black Friday!** Unlock **Quote Requests, Multi-Product Enquiry & WhatsApp Integration.** **Code: WISDMBFCM** | **Ends Dec 5th.**
+To enhance and add more value to the existing functions, check out [WISDM Product Enquiry Pro](https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreewordpress&utm_medium=pefreewordpress&utm_campaign=pefreewordpress). Unlock **Quote Requests, Multi-Product Enquiry & WhatsApp Integration**.
 
 Using this, you can empower your customers to send a single quotation request for **multiple products** or inquire about **bulk** or **large ticket size orders**. You can also view and reply to all inquiries and quote requests right from your dashboard.
 
-
 Pro Review:
-> "_"I was looking for a plugin for WooCommerce to request a quote. I tried several plugins with no or a bad result. At the very end I bought the plugin Product Enquiry Pro of WisdmLabs, that was working out of the box. I highly recommend WisdmLabs!"_
-> -Leo Verzijl
-
+> "I was looking for a plugin for WooCommerce to request a quote. I tried several plugins with no or a bad result. At the very end I bought the plugin Product Enquiry Pro of WisdmLabs, that was working out of the box. I highly recommend WisdmLabs!" -Leo Verzijl
 
 = By opting for the premium version, you can: =
 - Allow customers to send a single inquiry or quote request for multiple products at once
 - Create a custom inquiry form using a Built-in form Builder
 - Display a mini-cart inquiry widgets
-- Easily filter & export inquiries or quote records and analyze buyer demands 
-- Add an Inquiry or Quote button on the Shop or Archive page 
-- Easily reply to inquiries or create PDF quotations in the backend 
+- Easily filter & export inquiries or quote records and analyze buyer demands
+- Add an Inquiry or Quote button on the Shop or Archive page
+- Easily reply to inquiries or create PDF quotations in the backend
 - Show/hide the Inquiry button, Add to Cart, Pricing, etc.
 - Place the button anywhere on the page when using page builders like Elementor
 
-**[WISDM Product Enquiry Pro](https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreewordpress&utm_medium=pefreewordpress&utm_campaign=pefreewordpress)** is rated 4.8/5 by our customers and has been featured on bobwp.com, wpmayor.com, sellwithwp, frip.in and several other expert platforms. 
-
+**[WISDM Product Enquiry Pro](https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreewordpress&utm_medium=pefreewordpress&utm_campaign=pefreewordpress)** is rated 4.8/5 by our customers and has been featured on bobwp.com, wpmayor.com, sellwithwp, frip.in and several other expert platforms.
 
 <<[Check all Features & Pricing](https://wisdmlabs.com/woocommerce-quotation-and-inquiry/?utm_source=pefreewordpress&utm_medium=pefreewordpress&utm_campaign=pefreewordpress)>> | <<[View Demo](https://quoteup.wisdmlabs.com/?utm_source=PEfreelandingpage&utm_medium=PEfreelandingpage&utm_campaign=PEfreelandingpage)>>
 
-
-= Boost Enquiries with AI BotKit =
-
-Looking to automate enquiry responses and boost conversions?
-
-Try **AI BotKit**, a free AI chatbot that connects with your WordPress site to:
-Instantly answer customer questions
-Capture and qualify leads 24x7
-Work seamlessly with WooCommerce
-
-👉 [Get Free AI Chatbot](https://aibotkit.io/ai-chatbot-for-wordpress/?utm_source=Product+Enquiry+for+WooCommerce&utm_medium=read+me&utm_campaign=Product+Enquiry+for+WooCommerce+inside+plugin&utm_id=Wordpress)
-
-
 **Recommended Plugins:** [WISDM Customer Specific Pricing](https://wisdmlabs.com/woocommerce-user-specific-pricing-extension/?utm_source=PEfreelandingpage&utm_medium=PEfreelandingpage&utm_campaign=PEfreelandingpage), [WISDM Product Catalog Manager(Free)](https://wisdmlabs.com/woocommerce-catalog-mode/?utm_source=PEfreelandingpage&utm_medium=PEfreelandingpage&utm_campaign=PEfreelandingpage)
-
 
 Please Note:
 > The Product Enquiry Free plugin sends the data consisting of customer info and message directly to your inbox when a customer makes an enquiry on your website.
-> <strong>This plugin neither stores any data in the database nor does it send the data to any third party services.</strong>
+> <strong>This plugin neither stores any data in the database nor does it send the data to any third party services. The AI BotKit assistant is an optional, separate plugin. Installing or using it is entirely your choice, and it operates under its own privacy terms.
+</strong>
 > It is your sole responsibility and we urge you to update the privacy policy of your websites accordingly.
 
 == Installation ==
@@ -120,21 +111,34 @@ As this is an extension for the WooCommerce plugin, you must have WooCommerce pl
 3. Visit the 'Product Enquiry' menu page to configure settings.
 
 == Frequently Asked Questions ==
+
 = Does the Enquiry plugin work with all the Product types? =
+
 Yes. The WISDM Product Enquiry for WooCommerce works for Simple and Variable Products.
 
+= What is the AI assistant included with this plugin? =
+
+The plugin gives you one-click access to AI BotKit, a free AI chatbot for WordPress built by WisdmLabs. It learns from your site content and answers customer questions automatically, around the clock. It works alongside the enquiry form, so customers get instant answers for common questions and can still send a product inquiry or quote request for anything specific.
+
+= Is the AI assistant free? Do I need a separate account? =
+
+Yes, AI BotKit has a free plan. It installs as a separate plugin from your dashboard, and you can set it up in a few minutes. It is optional, and the enquiry plugin works fully without it.
+
 = Can I assign the incoming Inquiry or Quotation request emails to other team members? =
+
 Yes. With the Product Enquiry for WooCommerce, you can delegate the responsibility of the incoming Inquiry or Quotation requests to other team members as well.
 
 = Can I display the Inquiry button on the Shop Page? =
+
 The Free version allows you to display the Inquiry button on the Products page only. However, the Pro version (WISDM Product Enquiry Pro) enables you to place the Inquiry button on the Shop page as well. Plus, it lets you convert your store into catalog mode too.
 
 = Can I allow customers to place multi-product inquiries? =
+
 With the Free version, the customer will have to place the inquiry or request for quotation individually for each product. However, the Pro version enables the customers to save time by placing the Inquiry or Request Quotations for multiple products at once.
 
 = Can I modify/customize the Inquiry Form to fit my needs? =
-No. You have to use the default inquiry form. Having said that, the Pro version comes with an in-built custom form builder that allows you to add custom fields in the Inquiry form as per your needs. If you require advanced customisation, please contact our [WooCommerce Developers](https://wisdmlabs.com/woocommerce-development/) from [here](https://wisdmlabs.com/contact-us/).
 
+No. You have to use the default inquiry form. Having said that, the Pro version comes with an in-built custom form builder that allows you to add custom fields in the Inquiry form as per your needs. If you require advanced customisation, please contact our [WooCommerce Developers](https://wisdmlabs.com/woocommerce-development/) from [here](https://wisdmlabs.com/contact-us/).
 
 == Screenshots ==
 
@@ -146,7 +150,7 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 6. Request a quote for specific products
 7. Make an inquiry before the purchase
 8. Form to submit the inquiry
-9. AI ChatBot button in Archive Page 
+9. AI ChatBot button in Archive Page
 10. AI ChatBot button in Single Product Page.
 11. Settings of AI ChatBot.
 12. AI ChatBot Quote Assistant popup.
@@ -333,7 +337,7 @@ No. You have to use the default inquiry form. Having said that, the Pro version 
 
 = 0.3.6 =
 * Added "reply-to" address
-* Added plugin URI  
+* Added plugin URI
 
 = 0.3.5 =
 * Fixed "header already sent" warning message on plugin activation.

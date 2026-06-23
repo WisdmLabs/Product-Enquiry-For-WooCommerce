@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Product Enquiry for WooCommerce
+ * Plugin Name: Product Enquiry for WooCommerce (Now with AI Assistant)
  * Description: Allows prospective customers or visitors to make enquiry about a product, right from within the product page.
  * Version: 3.2.5.3
  * Author: WisdmLabs
